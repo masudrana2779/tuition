@@ -1,0 +1,1010 @@
+// header 1 style
+.mainHeader {
+    background-color: white;
+    box-shadow: 0px 5px #efeff1;
+    -webkit-box-shadow: 0px 5px #efeff1;
+    .navbar {
+        .navbar-toggler {
+            border: none;
+            box-shadow: none;
+        }
+        .toggler-icon {
+            width: 25px;
+            height: 16px;
+            outline: none!important;
+            border: none!important;
+            position: relative;
+            display: inline-block;
+            transition: all 0.5s;
+            padding: 0;
+            .icon {
+                position: absolute;
+                width: 100%;
+                background: black;
+                height: 2px;
+                left: 0;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+            .first-bar.icon {
+                top: 0;
+            }
+            .second-bar.icon {
+                top: 50%;
+            }
+            .third-bar.icon {
+                top: 100%;
+            }
+        }
+        .navbar-toggler[aria-expanded="true"] .first-bar.icon {
+            top: 50%;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .navbar-toggler[aria-expanded="true"] .second-bar.icon {
+            opacity: 0;
+            top: 50%;
+        }
+        .navbar-toggler[aria-expanded="true"] .third-bar.icon {
+            top: 50%;
+            -webkit-transform: rotate(-45deg) translateY(-50%);
+            -ms-transform: rotate(-45deg) translateY(-50%);
+            transform: rotate(-45deg) translateY(-50%);
+        }
+        .mainMenuWrap {
+            margin-left: 60px;
+            .mainMenu {
+                .nav-item {
+                    outline: none;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    font-size: 16px;
+                    color: #727272;
+                    font-weight: 500;
+                    text-align: center!important;
+                    .nav-link {
+                        color: #727272;
+                        font-family: 'Montserrat', sans-serif!important;
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-top: -8px;
+                        display: grid;
+                        transition: all 0.5s;
+                        margin-right: 10px;
+                    }
+                     :hover {
+                        color: #f9a23f;
+                    }
+                    .AweSomeIcon {
+                        font-size: 20px;
+                    }
+                    .GraduateIcon {
+                        margin-bottom: 6px;
+                        font-size: 20px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+        .SearchDropdownsWrap {
+            display: flex;
+            justify-content: end;
+            label {
+                margin-top: 20px!important;
+                 ::-webkit-input-placeholder {
+                    text-align: right;
+                }
+                 ::-moz-input-placeholder {
+                    text-align: right;
+                }
+                input[type='text']::placeholder {
+                    text-align: right;
+                    /* for Chrome, Firefox, Opera */
+                }
+                 :-ms-input-placeholder {
+                    text-align: right;
+                    /* for IE 10-11 */
+                }
+                 ::placeholder {
+                    text-align: right;
+                }
+                #searchBar {
+                    background-color: #f2f2f2;
+                    padding-right: 45px;
+                    position: relative;
+                    padding-left: 25px;
+                    border-radius: 19px!important;
+                    font-family: 'Montserrat', sans-serif!important;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: none;
+                    outline: none;
+                    width: 200px;
+                    height: 38px;
+                    -webkit-transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+                #searchBar:active,
+                #searchBar:focus-visible {
+                    width: 280px;
+                }
+                .DropSearchIcon {
+                    position: absolute;
+                    outline: none;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    font-size: 16px;
+                    color: #727272;
+                    margin-left: -35px;
+                    padding-top: 12px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+                input[type=text]::-ms-clear {
+                    display: none;
+                    width: 0;
+                    height: 0;
+                }
+                input[type=text]::-ms-reveal {
+                    display: none;
+                    width: 0;
+                    height: 0;
+                }
+                /* clears the 'X' from Chrome */
+                input[type="text"]::-webkit-search-decoration,
+                input[type="text"]::-webkit-search-cancel-button,
+                input[type="text"]::-webkit-search-results-button,
+                input[type="text"]::-webkit-search-results-decoration {
+                    display: none;
+                }
+            }
+            .dropdown {
+                margin-left: 10px;
+                margin-top: 7px;
+                .show {
+                    inset: 100px -293px 0 -292px !important;
+                    text-align: center;
+                    border-radius: 5px;
+                    transform: inherit!important;
+                }
+                img {
+                    display: block;
+                }
+                .dropdown-toggle {
+                    .btn::after {
+                        margin-left: inherit;
+                    }
+                    .MeTExt {
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                .dropdown-menu {
+                    max-width: 353px;
+                    height: 440px;
+                    .Setting-profileWrap {
+                        display: flex;
+                        text-align: left;
+                        align-items: center;
+                        padding: 20px;
+                        .SettingText {
+                            margin-left: 15px;
+                            text-align: left;
+                            .settingProfileName {
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+                            .Setting-graduateText {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #707070;
+                            }
+                        }
+                    }
+                    .ViewSettingbutton {
+                        margin-top: 8px;
+                        .ViewSolidbtn {
+                            border-radius: 50px;
+                            text-align: center;
+                            padding: 8px 100px;
+                            text-decoration: none;
+                            font-size: 16px;
+                            font-weight: 400;
+                            transition: all 0.3s;
+                            display: inline-block;
+                            .add {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .SettingsInner {
+                        margin-top: 20px;
+                        text-align: left;
+                        .SettingsMenu {
+                            li {
+                                list-style: none;
+                                a {
+                                    color: #595959;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 40px;
+                                    text-decoration: none;
+                                }
+                            }
+                            li a:hover {
+                                color: #f9a23f;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 650px) {
+    #searchBar:active,
+    #searchBar:focus-visible {
+        width: 250px !important;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .mainHeader {
+        background-color: white;
+        box-shadow: 0px 5px #efeff1;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .SearchDropdownsWrap {
+        display: flex;
+        justify-content: center;
+        right: 60px;
+        align-items: baseline;
+        position: absolute;
+        top: 0;
+    }
+    .mainMenuWrap {
+        margin-left: inherit;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .mainHeader .mainMenuWrap .mainMenu .nav-item .nav-link {
+        color: black;
+        font-size: 14px;
+    }
+    .navbar {
+        align-items: self-end;
+    }
+    .navbar-toggler {
+        padding-right: 27px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .nav-link {
+        color: black;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    .SearchDropdownsWrap {
+        display: flex;
+        justify-content: center;
+        right: 60px;
+        align-items: baseline;
+        top: 0;
+        position: absolute;
+    }
+    .SearchDropdownsWrap .dropdown {
+        margin-top: -30px;
+        max-width: 50px;
+        margin-left: inherit;
+        margin-right: -12px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-toggle .MeTExt,
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .mainHeader .navbar .mainMenuWrap {
+        margin-left: inherit;
+    }
+    .nav-item i {
+        margin-right: 6px;
+        font-size: 15px!important;
+    }
+    .mainHeader .navbar {
+        padding: 10px;
+    }
+    .mainHeader .navbar .navbar-brand img {
+        display: block;
+        width: 100px;
+        height: 20px;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: 0;
+    }
+    .mainHeader .navbar .navbar-toggler .toggler-icon {
+        width: 20px;
+        height: 13px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar {
+        font-size: 10px;
+        width: 10px;
+        height: 20px;
+        padding-right: 30px;
+        padding: 12px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar:active,
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar:focus {
+        width: 100px;
+        padding-left: 10px;
+        text-align: left;
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label::placeholder {
+        text-align: left!important;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label .DropSearchIcon {
+        font-size: 12px;
+        margin-left: -17px;
+        padding-top: 6px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label {
+        margin-top: 0!important;
+        font-size: 10px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .show {
+        inset: 54px -293px 0 -144px !important;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu {
+        max-width: 237px;
+        height: 260px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap {
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .Setting-profileWrap img {
+        width: 50px;
+        height: 50px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn {
+        padding: 5px 15px;
+        font-size: 10px;
+        margin-top: inherit;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn .add {
+        font-size: 10px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton {
+        text-align: left;
+        margin-left: 30px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .settingProfileName {
+        font-size: 12px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .Setting-graduateText {
+        font-size: 8px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText {
+        line-height: 0;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner {
+        margin-top: 10px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner .SettingsMenu li a {
+        line-height: inherit;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .nav-link {
+        color: black;
+        font-size: 10px;
+    }
+    .mainHeader .navbar .navbar-toggler .toggler-icon {
+        width: 15px;
+        height: 10px;
+    }
+    .mainHeader .navbar {
+        padding: 10px 0;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown {
+        margin-left: inherit;
+    }
+    .SearchDropdownsWrap {
+        right: 55px;
+    }
+    .mainHeader .navbar .navbar-brand img {
+        display: block;
+        width: 60px;
+        height: 15px;
+    }
+    .ProfileTextwrap {
+        margin-bottom: -10px;
+        margin-top: 20px;
+        line-height: 10px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar:active,
+    .mainHeader .navbar .SearchDropdownsWrap label #searchBar:focus {
+        width: 60px;
+    }
+    .mainHeader .navbar .SearchDropdownsWrap label .DropSearchIcon {
+        font-size: 10px;
+    }
+}
+
+// header 1 style
+// header 2 style
+
+/*-- Header section--*/
+
+.AllMainHeaderWrap {
+    .HeaderBottom {
+        background-color: #0c76b2;
+        .HeaderSocialInner {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            .MailNumberWrap {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                color: white;
+                .NumberText {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    color: white;
+                    text-decoration: none;
+                    -webkit-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+                .PhoneIcon {
+                    margin-right: 5px;
+                    color: #fdd262;
+                }
+                .NumberText:hover,
+                .PhoneIcon:hover {
+                    color: #f9a23f;
+                }
+                .MailText {
+                    border-left: 1px solid #b9e2f9;
+                    margin-left: 15px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    -webkit-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+                .MessageIcon {
+                    margin-left: 20px;
+                    color: #fdd262;
+                    margin-right: 10px;
+                    -webkit-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+                .MailText:hover,
+                .MessageIcon:hover {
+                    color: #f9a23f;
+                }
+            }
+            .SocialHeaderRight {
+                .SocialHeaderWrap {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    list-style: none;
+                    -webkit-box-pack: end;
+                    -ms-flex-pack: end;
+                    justify-content: end;
+                    padding-top: 10px;
+                }
+                .SocialHeaderWrap li a {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 15px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    font-size: 15px;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    text-decoration: none;
+                    -webkit-transition: all 0.5s;
+                    transition: all 0.5s;
+                    border-radius: 50%;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+    .mainHeaderHome {
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+        .navbar {
+            padding-top: inherit!important;
+            padding-bottom: inherit;
+            .Navbar_Img {
+                .navbar-brand {
+                    .head1Img {
+                        margin-right: 5px;
+                    }
+                    .head2Img {
+                        margin-right: 10px;
+                    }
+                }
+                .navbar-brand::after {
+                    content: "";
+                    border-right: 1px solid #d9dee3;
+                    margin-left: 10px;
+                }
+            }
+            .CategoryDropdown {
+                .categoryToggle {
+                    color: #031f42!important;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    .CategoryIcon {
+                        margin-left: 15px;
+                        margin-right: 5px;
+                        color: #0c76b2!important;
+                    }
+                    .catText {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #031f42;
+                    }
+                }
+                .categoryToggle:hover .CategoryIcon,
+                .categoryToggle:hover .catText,
+                .CategoryIcon:hover,
+                .catText:hover {
+                    color: #f9a23f!important;
+                }
+                .categoryToggle::after {
+                    display: none;
+                }
+                .CategoryMenu li a {
+                    color: #031f42;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .CategoryMenu li a:hover {
+                    color: white;
+                    background-color: #f9a23f;
+                }
+            }
+            .SearchBoxAreaWrap {
+                label {
+                    margin-left: 20px !important;
+                    /* webkit solution */
+                     ::-webkit-input-placeholder {
+                        text-align: right;
+                    }
+                     ::-moz-input-placeholder {
+                        text-align: right;
+                    }
+                    input[type='text']::placeholder {
+                        text-align: right;
+                        /* for Chrome, Firefox, Opera */
+                    }
+                     :-ms-input-placeholder {
+                        text-align: right;
+                        /* for IE 10-11 */
+                    }
+                     ::placeholder {
+                        text-align: right;
+                    }
+                    /* mozilla solution */
+                    #searchArea {
+                        background-color: #f2f2f2;
+                        padding-right: 45px;
+                        position: relative;
+                        padding-left: 25px;
+                        border-radius: 23px!important;
+                        font-family: 'Montserrat', sans-serif!important;
+                        font-size: 16px;
+                        font-weight: 400;
+                        border: none;
+                        outline: none;
+                        width: 170px;
+                        height: 38px;
+                        -webkit-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                        transition: all 0.5s;
+                    }
+                    #searchArea:active,
+                    #searchArea:focus-visible {
+                        width: 235px;
+                    }
+                    .SearchBoxIcon {
+                        position: absolute;
+                        outline: none;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        font-size: 16px;
+                        color: #727272;
+                        margin-left: -35px;
+                        padding-top: 12px;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                    /* clears the 'X' from Internet Explorer */
+                    input[type=search]::-ms-clear {
+                        display: none;
+                        width: 0;
+                        height: 0;
+                    }
+                    input[type=search]::-ms-reveal {
+                        display: none;
+                        width: 0;
+                        height: 0;
+                    }
+                    /* clears the 'X' from Chrome */
+                    input[type="search"]::-webkit-search-decoration,
+                    input[type="search"]::-webkit-search-cancel-button,
+                    input[type="search"]::-webkit-search-results-button,
+                    input[type="search"]::-webkit-search-results-decoration {
+                        display: none;
+                    }
+                }
+            }
+            .navbar-toggler:focus,
+            .navbar-toggler:active,
+            .navbar-toggler-icon:focus {
+                outline: none;
+                box-shadow: none;
+                border: 0;
+            }
+            .navbar-toggler {
+                border: none;
+                .toggler-logo {
+                    width: 25px;
+                    height: 16px;
+                    outline: none!important;
+                    border: none!important;
+                    position: relative;
+                    display: inline-block;
+                    -webkit-transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                    transition: all 0.5s;
+                    padding: 0;
+                    .top-bar.logo {
+                        top: 0;
+                    }
+                    .middle-bar.logo {
+                        top: 50%;
+                    }
+                    .last-bar.logo {
+                        top: 100%;
+                    }
+                    .logo {
+                        position: absolute;
+                        width: 100%;
+                        background: black;
+                        height: 2px;
+                        left: 0;
+                        -webkit-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+            .navbar-toggler[aria-expanded="true"] .first-bar.icon {
+                top: 50%;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            .navbar-toggler[aria-expanded="true"] .second-bar.icon {
+                opacity: 0;
+                top: 50%;
+            }
+            .navbar-toggler[aria-expanded="true"] .third-bar.icon {
+                top: 50%;
+                -webkit-transform: rotate(-45deg) translateY(-50%);
+                -ms-transform: rotate(-45deg) translateY(-50%);
+                transform: rotate(-45deg) translateY(-50%);
+            }
+            .mainMenunavbar {
+                margin-left: 10px;
+                .navbar-nav {
+                    .nav-item {
+                        outline: none;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        font-size: 16px;
+                        color: #727272;
+                        font-weight: 500;
+                        text-align: center!important;
+                        .nav-link {
+                            color: #031f42;
+                            font-family: 'Montserrat', sans-serif!important;
+                            font-size: 16px;
+                            line-height: 21px;
+                            -webkit-transition: all 0.5s;
+                            -o-transition: all 0.5s;
+                            transition: all 0.5s;
+                        }
+                        .nav-link:hover {
+                            color: #f9a23f;
+                        }
+                        .JoinButton {
+                            text-decoration: none;
+                            color: white!important;
+                            background-color: #f9a23f;
+                            padding: 10px 24px!important;
+                            border-radius: 5px;
+                            font-weight: 500!important;
+                            margin-left: 10px;
+                            font-size: 18px!important;
+                            -webkit-transition: all 0.5s;
+                            -o-transition: all 0.5s;
+                            transition: all 0.5s;
+                             ::after {
+                                display: none;
+                            }
+                        }
+                        .joinItem:focus,
+                        .joinItem:hover {
+                            background-color: #0c76b2;
+                            color: white;
+                        }
+                        .JoinButton:hover {
+                            background-color: #0c76b2;
+                        }
+                        .JoinButton::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head1Img {
+        max-width: 30px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head2Img {
+        max-width: 120px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+        width: 125px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+        width: 175px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+        font-size: 15px;
+        padding: 7px 10px !important;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection,
+    .verifiedFormWrap .FormInner .FormSelection,
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton,
+    .verifiedFormWrap .FormInner .TuitorSolidButtton {
+        Width: 170px!important;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 730px) {
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+        width: 125px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+        width: 165px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .AllMainHeaderWrap .mainHeaderHome .d-flex {
+        display: contents!important;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+        margin-top: inherit;
+        margin-left: 0 !important;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+        display: inline-block!important;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar-nav {
+        margin-top: 20px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img {
+        margin-right: -190px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        right: 75px;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        top: 4px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner {
+        display: inherit;
+        display: -webkit-box;
+    }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .NumberText {
+        font-size: 8px;
+    }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MailText {
+        border-left: inherit;
+        font-size: 8px;
+        margin-left: inherit;
+    }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .PhoneIcon {
+        margin-right: inherit;
+    }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MessageIcon {
+        margin-right: 5px;
+    }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .SocialHeaderRight .SocialHeaderWrap li a {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        margin-right: 8px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome {
+        margin: 0;
+        padding: 3px 0;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar {
+        padding-bottom: .5rem;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap {
+        display: flex;
+        justify-content: center;
+        right: 60px;
+        align-items: baseline;
+        top: 10px;
+        position: absolute;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label {
+        margin-top: 0 !important;
+        font-size: 10px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label .SearchBoxIcon {
+        font-size: 12px;
+        margin-left: -17px;
+        padding-top: 6px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+        width: 80px;
+        padding-left: 10px;
+        text-align: left;
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+        font-size: 10px;
+        width: 10px;
+        height: 20px;
+        padding-right: 30px;
+        padding: 12px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img {
+        margin-right: -110px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown {
+        margin-top: 4px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head1Img {
+        max-width: 20px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head2Img {
+        max-width: 100px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand::after {
+        display: none;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .CategoryMenu li a {
+        font-size: 12px;
+        font-weight: inherit;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .catText {
+        display: none;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea {
+        font-size: 10px;
+        width: 10px;
+        height: 20px;
+        padding-right: 80px;
+        padding: 12px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea::placeholder {
+        text-align: left;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label .SearchBoxIcon {
+        font-size: 12px;
+        margin-left: -17px;
+        padding-top: 8px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea:active,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea:focus {
+        width: 80px;
+        padding-left: 10px;
+        text-align: left;
+        margin-right: 0px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo {
+        width: 18px;
+        height: 11px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .CategoryIcon {
+        font-size: 14px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item {
+        text-align: start!important;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+        margin-top: inherit;
+        text-align: left !important;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+        padding: 7px 18px !important;
+        font-size: 13px !important;
+        display: inline-block;
+        margin-left: 0;
+    }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .joinItem {
+        font-size: 12px;
+    }
+}
+
+// header 2 style

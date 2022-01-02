@@ -1,0 +1,3342 @@
+/*--Bootstrap5 fontawesome css link --*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+/*--Montserrat font cdn--*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gordita");
+body {
+  margin: 0 auto;
+  padding: 0 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-overflow-scrolling: touch; }
+
+.bgGray {
+  background-color: #f8f9fb; }
+
+/*--Gorila font cdn--*/
+/*--Montserrat font cdn--*/
+.container {
+  max-width: 1140px !important;
+  width: 100% !important; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -moz-user-select: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 0 0;
+  border: 0;
+  font-family: "Montserrat", sans-serif !important; }
+
+.mainHeader {
+  background-color: white;
+  box-shadow: 0px 5px #efeff1;
+  -webkit-box-shadow: 0px 5px #efeff1; }
+  .mainHeader .navbar .navbar-toggler {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .mainHeader .navbar .toggler-icon {
+    width: 25px;
+    height: 16px;
+    outline: none !important;
+    border: none !important;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 0; }
+    .mainHeader .navbar .toggler-icon .icon {
+      position: absolute;
+      width: 100%;
+      background: black;
+      height: 2px;
+      left: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .mainHeader .navbar .toggler-icon .first-bar.icon {
+      top: 0; }
+    .mainHeader .navbar .toggler-icon .second-bar.icon {
+      top: 50%; }
+    .mainHeader .navbar .toggler-icon .third-bar.icon {
+      top: 100%; }
+  .mainHeader .navbar .navbar-toggler[aria-expanded="true"] .first-bar.icon {
+    top: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .mainHeader .navbar .navbar-toggler[aria-expanded="true"] .second-bar.icon {
+    opacity: 0;
+    top: 50%; }
+  .mainHeader .navbar .navbar-toggler[aria-expanded="true"] .third-bar.icon {
+    top: 50%;
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    -ms-transform: rotate(-45deg) translateY(-50%);
+    transform: rotate(-45deg) translateY(-50%); }
+  .mainHeader .navbar .mainMenuWrap {
+    margin-left: 60px; }
+    .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item {
+      outline: none;
+      background-position: center center;
+      background-repeat: no-repeat;
+      font-size: 16px;
+      color: #727272;
+      font-weight: 500;
+      text-align: center !important; }
+      .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .nav-link {
+        color: #727272;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -8px;
+        display: -ms-grid;
+        display: grid;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        margin-right: 10px; }
+      .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item :hover {
+        color: #f9a23f; }
+      .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .AweSomeIcon {
+        font-size: 20px; }
+      .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .GraduateIcon {
+        margin-bottom: 6px;
+        font-size: 20px;
+        margin-top: 5px; }
+  .mainHeader .navbar .SearchDropdownsWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end; }
+    .mainHeader .navbar .SearchDropdownsWrap label {
+      margin-top: 20px !important;
+      /* clears the 'X' from Chrome */ }
+      .mainHeader .navbar .SearchDropdownsWrap label ::-webkit-input-placeholder {
+        text-align: right; }
+      .mainHeader .navbar .SearchDropdownsWrap label ::-moz-input-placeholder {
+        text-align: right; }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type='text']::-webkit-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type='text']:-ms-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type='text']::-ms-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type='text']::placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .mainHeader .navbar .SearchDropdownsWrap label :-ms-input-placeholder {
+        text-align: right;
+        /* for IE 10-11 */ }
+      .mainHeader .navbar .SearchDropdownsWrap label ::-webkit-input-placeholder {
+        text-align: right; }
+      .mainHeader .navbar .SearchDropdownsWrap label ::-ms-input-placeholder {
+        text-align: right; }
+      .mainHeader .navbar .SearchDropdownsWrap label ::placeholder {
+        text-align: right; }
+      .mainHeader .navbar .SearchDropdownsWrap label #searchBar {
+        background-color: #f2f2f2;
+        padding-right: 45px;
+        position: relative;
+        padding-left: 25px;
+        border-radius: 19px !important;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        width: 200px;
+        height: 38px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .mainHeader .navbar .SearchDropdownsWrap label #searchBar:active,
+      .mainHeader .navbar .SearchDropdownsWrap label #searchBar:focus-visible {
+        width: 280px; }
+      .mainHeader .navbar .SearchDropdownsWrap label .DropSearchIcon {
+        position: absolute;
+        outline: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        font-size: 16px;
+        color: #727272;
+        margin-left: -35px;
+        padding-top: 12px;
+        font-weight: 500;
+        text-align: center; }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type=text]::-ms-clear {
+        display: none;
+        width: 0;
+        height: 0; }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type=text]::-ms-reveal {
+        display: none;
+        width: 0;
+        height: 0; }
+      .mainHeader .navbar .SearchDropdownsWrap label input[type="text"]::-webkit-search-decoration,
+      .mainHeader .navbar .SearchDropdownsWrap label input[type="text"]::-webkit-search-cancel-button,
+      .mainHeader .navbar .SearchDropdownsWrap label input[type="text"]::-webkit-search-results-button,
+      .mainHeader .navbar .SearchDropdownsWrap label input[type="text"]::-webkit-search-results-decoration {
+        display: none; }
+    .mainHeader .navbar .SearchDropdownsWrap .dropdown {
+      margin-left: 10px;
+      margin-top: 7px; }
+      .mainHeader .navbar .SearchDropdownsWrap .dropdown .show {
+        inset: 100px -293px 0 -292px !important;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-transform: inherit !important;
+        -ms-transform: inherit !important;
+        transform: inherit !important; }
+      .mainHeader .navbar .SearchDropdownsWrap .dropdown img {
+        display: block; }
+      .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-toggle .btn::after {
+        margin-left: inherit; }
+      .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-toggle .MeTExt {
+        font-size: 14px;
+        font-weight: 400; }
+      .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu {
+        max-width: 353px;
+        height: 440px; }
+        .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          text-align: left;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          padding: 20px; }
+          .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText {
+            margin-left: 15px;
+            text-align: left; }
+            .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .settingProfileName {
+              font-size: 18px;
+              font-weight: 600; }
+            .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .Setting-graduateText {
+              font-size: 14px;
+              font-weight: 400;
+              color: #707070; }
+        .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton {
+          margin-top: 8px; }
+          .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn {
+            border-radius: 50px;
+            text-align: center;
+            padding: 8px 100px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            display: inline-block; }
+            .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn .add {
+              font-size: 16px; }
+        .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner {
+          margin-top: 20px;
+          text-align: left; }
+          .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner .SettingsMenu li {
+            list-style: none; }
+            .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner .SettingsMenu li a {
+              color: #595959;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 40px;
+              text-decoration: none; }
+          .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner .SettingsMenu li a:hover {
+            color: #f9a23f;
+            text-decoration: underline; }
+
+@media only screen and (min-width: 577px) and (max-width: 650px) {
+  #searchBar:active,
+  #searchBar:focus-visible {
+    width: 250px !important; } }
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .mainHeader {
+    background-color: white;
+    -webkit-box-shadow: 0px 5px #efeff1;
+    box-shadow: 0px 5px #efeff1;
+    padding-bottom: 15px;
+    padding-left: 15px; }
+  .SearchDropdownsWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 60px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    position: absolute;
+    top: 0; }
+  .mainMenuWrap {
+    margin-left: inherit; }
+  .navbar-nav {
+    margin-top: 20px; }
+  .mainHeader .mainMenuWrap .mainMenu .nav-item .nav-link {
+    color: black;
+    font-size: 14px; }
+  .navbar {
+    -webkit-box-align: self-end;
+    -ms-flex-align: self-end;
+    align-items: self-end; }
+  .navbar-toggler {
+    padding-right: 27px; } }
+
+@media screen and (max-width: 576px) {
+  .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .nav-link {
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px; }
+  .SearchDropdownsWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 60px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    top: 0;
+    position: absolute; }
+  .SearchDropdownsWrap .dropdown {
+    margin-top: -30px;
+    max-width: 50px;
+    margin-left: inherit;
+    margin-right: -12px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-toggle .MeTExt,
+  .dropdown-toggle::after {
+    display: none; }
+  .mainHeader .navbar .mainMenuWrap {
+    margin-left: inherit; }
+  .nav-item i {
+    margin-right: 6px;
+    font-size: 15px !important; }
+  .mainHeader .navbar {
+    padding: 10px; }
+  .mainHeader .navbar .navbar-brand img {
+    display: block;
+    width: 100px;
+    height: 20px; }
+  .navbar-nav {
+    margin-top: 20px; }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0; }
+  .mainHeader .navbar .navbar-toggler .toggler-icon {
+    width: 20px;
+    height: 13px; }
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar {
+    font-size: 10px;
+    width: 10px;
+    height: 20px;
+    padding-right: 30px;
+    padding: 12px; }
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar:active,
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar:focus {
+    width: 100px;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 0px;
+    padding-right: 20px; }
+  .mainHeader .navbar .SearchDropdownsWrap label::-webkit-input-placeholder {
+    text-align: left !important; }
+  .mainHeader .navbar .SearchDropdownsWrap label:-ms-input-placeholder {
+    text-align: left !important; }
+  .mainHeader .navbar .SearchDropdownsWrap label::-ms-input-placeholder {
+    text-align: left !important; }
+  .mainHeader .navbar .SearchDropdownsWrap label::placeholder {
+    text-align: left !important; }
+  .mainHeader .navbar .SearchDropdownsWrap label .DropSearchIcon {
+    font-size: 12px;
+    margin-left: -17px;
+    padding-top: 6px; }
+  .mainHeader .navbar .SearchDropdownsWrap label {
+    margin-top: 0 !important;
+    font-size: 10px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .show {
+    inset: 54px -293px 0 -144px !important; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu {
+    max-width: 237px;
+    height: 260px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap {
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 10px; }
+  .Setting-profileWrap img {
+    width: 50px;
+    height: 50px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn {
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-top: inherit; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton .ViewSolidbtn .add {
+    font-size: 10px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .ViewSettingbutton {
+    text-align: left;
+    margin-left: 30px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .settingProfileName {
+    font-size: 12px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText .Setting-graduateText {
+    font-size: 8px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .Setting-profileWrap .SettingText {
+    line-height: 0; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner {
+    margin-top: 10px; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown .dropdown-menu .SettingsInner .SettingsMenu li a {
+    line-height: inherit;
+    font-size: 12px; } }
+
+@media screen and (max-width: 330px) {
+  .mainHeader .navbar .mainMenuWrap .mainMenu .nav-item .nav-link {
+    color: black;
+    font-size: 10px; }
+  .mainHeader .navbar .navbar-toggler .toggler-icon {
+    width: 15px;
+    height: 10px; }
+  .mainHeader .navbar {
+    padding: 10px 0; }
+  .mainHeader .navbar .SearchDropdownsWrap .dropdown {
+    margin-left: inherit; }
+  .SearchDropdownsWrap {
+    right: 55px; }
+  .mainHeader .navbar .navbar-brand img {
+    display: block;
+    width: 60px;
+    height: 15px; }
+  .ProfileTextwrap {
+    margin-bottom: -10px;
+    margin-top: 20px;
+    line-height: 10px; }
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar {
+    font-size: 10px;
+    width: 20px;
+    height: 20px; }
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar:active,
+  .mainHeader .navbar .SearchDropdownsWrap label #searchBar:focus {
+    width: 60px; }
+  .mainHeader .navbar .SearchDropdownsWrap label .DropSearchIcon {
+    font-size: 10px; } }
+
+/*-- Header section--*/
+.AllMainHeaderWrap .HeaderBottom {
+  background-color: #0c76b2; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: white; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .NumberText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: white;
+        text-decoration: none;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .PhoneIcon {
+        margin-right: 5px;
+        color: #fdd262; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .NumberText:hover,
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .PhoneIcon:hover {
+        color: #f9a23f; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MailText {
+        border-left: 1px solid #b9e2f9;
+        margin-left: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MessageIcon {
+        margin-left: 20px;
+        color: #fdd262;
+        margin-right: 10px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MailText:hover,
+      .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MessageIcon:hover {
+        color: #f9a23f; }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .SocialHeaderRight .SocialHeaderWrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: end;
+      padding-top: 10px; }
+    .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .SocialHeaderRight .SocialHeaderWrap li a {
+      width: 25px;
+      height: 25px;
+      margin-right: 15px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 15px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-decoration: none;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      border-radius: 50%;
+      transition: all 0.5s; }
+
+.AllMainHeaderWrap .mainHeaderHome {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar {
+    padding-top: inherit !important;
+    padding-bottom: inherit; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head1Img {
+      margin-right: 5px; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head2Img {
+      margin-right: 10px; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand::after {
+      content: "";
+      border-right: 1px solid #d9dee3;
+      margin-left: 10px; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle {
+      color: #031f42 !important;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .CategoryIcon {
+        margin-left: 15px;
+        margin-right: 5px;
+        color: #0c76b2 !important; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .catText {
+        font-size: 16px;
+        font-weight: 500;
+        color: #031f42; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle:hover .CategoryIcon,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle:hover .catText,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .CategoryIcon:hover,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .catText:hover {
+      color: #f9a23f !important; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle::after {
+      display: none; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .CategoryMenu li a {
+      color: #031f42;
+      font-size: 16px;
+      font-weight: 500; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .CategoryMenu li a:hover {
+      color: white;
+      background-color: #f9a23f; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label {
+      margin-left: 20px !important;
+      /* webkit solution */
+      /* mozilla solution */
+      /* clears the 'X' from Internet Explorer */
+      /* clears the 'X' from Chrome */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label ::-webkit-input-placeholder {
+        text-align: right; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label ::-moz-input-placeholder {
+        text-align: right; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type='text']::-webkit-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type='text']:-ms-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type='text']::-ms-input-placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type='text']::placeholder {
+        text-align: right;
+        /* for Chrome, Firefox, Opera */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label :-ms-input-placeholder {
+        text-align: right;
+        /* for IE 10-11 */ }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label ::-webkit-input-placeholder {
+        text-align: right; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label ::-ms-input-placeholder {
+        text-align: right; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label ::placeholder {
+        text-align: right; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+        background-color: #f2f2f2;
+        padding-right: 45px;
+        position: relative;
+        padding-left: 25px;
+        border-radius: 23px !important;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        width: 170px;
+        height: 38px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+        width: 235px; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label .SearchBoxIcon {
+        position: absolute;
+        outline: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        font-size: 16px;
+        color: #727272;
+        margin-left: -35px;
+        padding-top: 12px;
+        font-weight: 500;
+        text-align: center; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type=search]::-ms-clear {
+        display: none;
+        width: 0;
+        height: 0; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type=search]::-ms-reveal {
+        display: none;
+        width: 0;
+        height: 0; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type="search"]::-webkit-search-decoration,
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type="search"]::-webkit-search-cancel-button,
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type="search"]::-webkit-search-results-button,
+      .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label input[type="search"]::-webkit-search-results-decoration {
+        display: none; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler:focus,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler:active,
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler-icon:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 0; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler {
+      border: none; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo {
+        width: 25px;
+        height: 16px;
+        outline: none !important;
+        border: none !important;
+        position: relative;
+        display: inline-block;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        padding: 0; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo .top-bar.logo {
+          top: 0; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo .middle-bar.logo {
+          top: 50%; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo .last-bar.logo {
+          top: 100%; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo .logo {
+          position: absolute;
+          width: 100%;
+          background: black;
+          height: 2px;
+          left: 0;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler[aria-expanded="true"] .first-bar.icon {
+      top: 50%;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler[aria-expanded="true"] .second-bar.icon {
+      opacity: 0;
+      top: 50%; }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler[aria-expanded="true"] .third-bar.icon {
+      top: 50%;
+      -webkit-transform: rotate(-45deg) translateY(-50%);
+      -ms-transform: rotate(-45deg) translateY(-50%);
+      transform: rotate(-45deg) translateY(-50%); }
+    .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar {
+      margin-left: 10px; }
+      .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item {
+        outline: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        font-size: 16px;
+        color: #727272;
+        font-weight: 500;
+        text-align: center !important; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+          color: #031f42;
+          font-family: "Montserrat", sans-serif !important;
+          font-size: 16px;
+          line-height: 21px;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link:hover {
+          color: #f9a23f; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+          text-decoration: none;
+          color: white !important;
+          background-color: #f9a23f;
+          padding: 10px 24px !important;
+          border-radius: 5px;
+          font-weight: 500 !important;
+          margin-left: 10px;
+          font-size: 18px !important;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton ::after {
+            display: none; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .joinItem:focus,
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .joinItem:hover {
+          background-color: #0c76b2;
+          color: white; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton:hover {
+          background-color: #0c76b2; }
+        .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton::after {
+          display: none; }
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head1Img {
+    max-width: 30px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head2Img {
+    max-width: 120px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+    width: 125px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+    width: 175px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+    font-size: 15px;
+    padding: 7px 10px !important; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection,
+  .verifiedFormWrap .FormInner .FormSelection,
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton,
+  .verifiedFormWrap .FormInner .TuitorSolidButtton {
+    Width: 170px !important; } }
+
+@media only screen and (min-width: 577px) and (max-width: 730px) {
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+    width: 125px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+    width: 165px; } }
+
+@media screen and (max-width: 991px) {
+  .AllMainHeaderWrap .mainHeaderHome .d-flex {
+    display: contents !important; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+    margin-top: inherit;
+    margin-left: 0 !important; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+    display: inline-block !important; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar-nav {
+    margin-top: 20px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img {
+    margin-right: -190px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 75px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    top: 4px;
+    position: absolute; } }
+
+@media screen and (max-width: 576px) {
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner {
+    display: inherit;
+    display: -webkit-box; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .NumberText {
+    font-size: 8px; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MailText {
+    border-left: inherit;
+    font-size: 8px;
+    margin-left: inherit; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .PhoneIcon {
+    margin-right: inherit; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .MailNumberWrap .MessageIcon {
+    margin-right: 5px; }
+  .AllMainHeaderWrap .HeaderBottom .HeaderSocialInner .SocialHeaderRight .SocialHeaderWrap li a {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 8px; }
+  .AllMainHeaderWrap .mainHeaderHome {
+    margin: 0;
+    padding: 3px 0; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar {
+    padding-bottom: .5rem; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 60px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    top: 10px;
+    position: absolute; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label {
+    margin-top: 0 !important;
+    font-size: 10px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label .SearchBoxIcon {
+    font-size: 12px;
+    margin-left: -17px;
+    padding-top: 6px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:active,
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea:focus-visible {
+    width: 80px;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 0px;
+    padding-right: 20px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchBoxAreaWrap label #searchArea {
+    font-size: 10px;
+    width: 10px;
+    height: 20px;
+    padding-right: 30px;
+    padding: 12px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img {
+    margin-right: -110px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown {
+    margin-top: 4px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head1Img {
+    max-width: 20px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand .head2Img {
+    max-width: 100px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .Navbar_Img .navbar-brand::after {
+    display: none; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .CategoryMenu li a {
+    font-size: 12px;
+    font-weight: inherit; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .catText {
+    display: none; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea {
+    font-size: 10px;
+    width: 10px;
+    height: 20px;
+    padding-right: 80px;
+    padding: 12px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea::-webkit-input-placeholder {
+    text-align: left; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea:-ms-input-placeholder {
+    text-align: left; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea::-ms-input-placeholder {
+    text-align: left; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea::placeholder {
+    text-align: left; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label .SearchBoxIcon {
+    font-size: 12px;
+    margin-left: -17px;
+    padding-top: 8px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea:active,
+  .AllMainHeaderWrap .mainHeaderHome .navbar .SearchDropdownsWrap label #searchArea:focus {
+    width: 80px;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 0px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .navbar-toggler .toggler-logo {
+    width: 18px;
+    height: 11px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .CategoryDropdown .categoryToggle .CategoryIcon {
+    font-size: 14px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item {
+    text-align: start !important; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .nav-link {
+    margin-top: inherit;
+    text-align: left !important;
+    font-size: 12px;
+    line-height: 15px; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .JoinButton {
+    padding: 7px 18px !important;
+    font-size: 13px !important;
+    display: inline-block;
+    margin-left: 0; }
+  .AllMainHeaderWrap .mainHeaderHome .navbar .mainMenunavbar .navbar-nav .nav-item .joinItem {
+    font-size: 12px; } }
+
+/*--SocialProfileWrap section--*/
+.Buttonlight {
+  background-color: #0c76b2;
+  color: white !important;
+  border: none; }
+
+.Buttonlight:hover {
+  background-color: #f9a23f !important; }
+
+.AddEditGlobBtn {
+  color: #0c76b2 !important;
+  cursor: pointer; }
+
+-check:focus + .btn,
+.btn:focus {
+  outline: 0 !important; }
+
+.EditSolidButton {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  display: inline-block;
+  cursor: pointer; }
+
+.AddEditGlobBtn:hover {
+  color: #f9a23f !important; }
+
+.SocialProfileWrap {
+  margin-top: 30px; }
+  .SocialProfileWrap .ProfileWrapInner {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #f2f2f2;
+    z-index: 1; }
+    .SocialProfileWrap .ProfileWrapInner .PrimiumImg {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .SocialProfileWrap .ProfileWrapInner .shadowimg1 {
+      position: absolute;
+      right: 0;
+      top: -10px;
+      margin-right: 20px;
+      -webkit-filter: invert(39);
+      filter: invert(39);
+      opacity: 0.1;
+      z-index: -1; }
+    .SocialProfileWrap .ProfileWrapInner .circle2 {
+      position: absolute;
+      left: -20px;
+      top: 95px;
+      -webkit-filter: invert(39);
+      filter: invert(39);
+      opacity: 0.1; }
+    .SocialProfileWrap .ProfileWrapInner .ProfileImg {
+      display: block;
+      z-index: 1;
+      position: relative; }
+    .SocialProfileWrap .ProfileWrapInner .ActiveLight {
+      position: absolute;
+      left: 150px;
+      z-index: 2;
+      bottom: 161px;
+      display: block; }
+    .SocialProfileWrap .ProfileWrapInner .ProfileImg img {
+      margin-right: 20px; }
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap {
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      margin-right: auto; }
+      .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .UserNametext {
+        font-size: 30px;
+        font-weight: 600; }
+      .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Graduation {
+        font-size: 18px;
+        font-weight: 400;
+        color: #707070;
+        line-height: 21px; }
+      .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Location {
+        font-weight: 400;
+        color: #707070;
+        line-height: 21px;
+        z-index: 1;
+        position: absolute; }
+      .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .ppmapIcon {
+        color: #2c2c2c;
+        margin-left: 2px;
+        z-index: 1; }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner {
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      padding-top: 50px; }
+      .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .downloadWrap .ButtonSolidwrap {
+        border-radius: 5px;
+        text-align: center;
+        padding: 6px 12px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-box-shadow: -20px -28px 30px 9px white;
+        box-shadow: -20px -28px 30px 9px white; }
+      .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        margin-top: 20px; }
+        .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap .AddModalButton .AddLogoWrap .AddEditGlobBtn {
+          -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+          align-items: baseline;
+          text-decoration: none;
+          -webkit-transition: all 0.2s;
+          -o-transition: all 0.2s;
+          transition: all 0.2s;
+          font-size: 16px;
+          font-weight: 400;
+          display: inline-block; }
+          .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap .AddModalButton .AddLogoWrap .AddEditGlobBtn .pluslight {
+            margin-right: 3px; }
+  .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    text-align: -webkit-center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 855px;
+    height: 113px;
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    padding-top: 10px; }
+    .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .Numberwrap {
+      color: #0c76b2;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 42px;
+      font-weight: 600; }
+    .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .ServiceText {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #707070; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    padding: 15px 20px; }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap {
+      border-right: 1px solid #f1f1f1;
+      padding-right: 20px; }
+      .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .DU-logo img {
+        margin-right: 5px;
+        border: 1px solid #d5d5d5;
+        border-radius: 50%;
+        padding: 3px;
+        width: 25px;
+        height: 25px; }
+      .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .BimanLogo img {
+        width: 19px;
+        height: 25px;
+        margin-right: 5px; }
+      .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .ContactPhoneIcon {
+        color: white;
+        font-size: 16px !important;
+        border: 1px solid #3a90c1;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #3a90c1;
+        margin-right: 5px;
+        border-radius: 50%;
+        padding: 2px;
+        text-align: center;
+        width: 22px;
+        height: 22px; }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .WorksItem {
+      color: #a0a0a0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left !important;
+      line-height: 21px; }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactText {
+      color: #595959;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px; }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .mapIcon {
+      color: white;
+      font-size: 16px;
+      margin-right: 3px;
+      font-weight: 400;
+      border: 1px solid #3a90c1;
+      border-radius: 50%;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: #3a90c1;
+      margin-right: 5px;
+      border-radius: 50%;
+      padding: 1px;
+      text-align: center;
+      width: 22px;
+      height: 22px; }
+  .SocialProfileWrap .TutorFormWrap {
+    background-color: white;
+    padding: 15px; }
+    .SocialProfileWrap .TutorFormWrap .ContactTutors {
+      font-family: "Montserrat", sans-serif !important;
+      font-size: 18px;
+      font-weight: 500;
+      padding-top: 10px;
+      color: #595959;
+      text-align: left;
+      padding-left: 30px; }
+    .SocialProfileWrap .TutorFormWrap .FormInner {
+      padding: 10px; }
+      .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .input_field {
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 12px;
+        font-weight: 400;
+        background: #f6f6f6;
+        margin: 10px;
+        width: 287px;
+        height: 44px;
+        border-radius: 3px;
+        padding-left: 20px;
+        border: 1px solid #e7e7e7;
+        outline: none; }
+      .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .input_field:focus {
+        border-color: #86b7fe;
+        -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
+      .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .text_Details {
+        background-color: inherit;
+        line-height: 10px;
+        width: 287px;
+        height: 110px;
+        text-align: justify;
+        padding-top: 20px; }
+      .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .BtnGlobWrap {
+        width: 290px;
+        height: 37px;
+        border-radius: 5px;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 16px;
+        border: none;
+        margin-left: 10px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+
+.ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .form-group label {
+  margin-top: 15px; }
+
+.ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .ModalFooterFig .btn:focus {
+  outline: 0 !important; }
+
+.EditGlobButton {
+  margin-right: 2px; }
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .TutorFormWrap {
+    margin-bottom: 50px;
+    display: table-caption;
+    margin-top: 20px; } }
+
+@media only screen and (min-width: 577px) and (max-width: 610px) {
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner {
+    padding-top: 10px !important; }
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .downloadWrap .ButtonSolidwrap {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap {
+    border-right: none !important; }
+  .SocialProfileWrap .ProfileWrapInner .ActiveLight {
+    left: 138px !important;
+    bottom: 148px !important; } }
+
+@media screen and (max-width: 576px) {
+  .SocialProfileWrap .ProfileWrapInner .shadowimg1 {
+    display: none; }
+  .circle2 {
+    display: none; }
+  .SocialProfileWrap .ProfileWrapInner {
+    display: block;
+    padding: 20px; }
+  .AcademyContactWrap img {
+    display: block;
+    width: 40px;
+    height: 55px; }
+  .VersityContactWrap img {
+    display: block;
+    width: 45px;
+    height: 50px; }
+  .AboutWrap .SocialContactWrap {
+    display: inherit !important; }
+  .SocialContactWrap3 img {
+    display: block;
+    width: 40px;
+    height: 55px; }
+  .SocialContactWrap2 img {
+    width: 45px;
+    height: 50px;
+    display: block; }
+  .SocialProfileWrap .ProfileWrapInner .ProfileImg img {
+    display: block;
+    width: 100px;
+    height: 100px; }
+  .SocialProfileWrap .ProfileWrapInner .ActiveLight {
+    left: 96px;
+    bottom: inherit;
+    max-width: 20px; }
+  .FormInner {
+    padding-right: 20px;
+    padding: inherit; }
+  .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .input_field,
+  .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .BtnGlobWrap {
+    width: 100%;
+    height: inherit;
+    padding: 8px;
+    font-size: 10px; }
+  .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .text_Details {
+    width: 100%;
+    height: inherit;
+    padding-bottom: 25px;
+    line-height: 20px;
+    font-size: 12px; }
+  .SocialProfileWrap {
+    margin-top: 15px; }
+  .form-check .form-check-input {
+    float: inherit;
+    font-size: 12px; }
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .downloadWrap .ButtonSolidwrap {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    box-shadow: none;
+    -webkit-box-shadow: none; }
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    margin-top: 10px;
+    margin-left: 5px; }
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap .AddModalButton .AddLogoWrap .AddEditGlobBtn {
+    font-size: 14px; }
+  .SocialProfileWrap .ProfileWrapInner .DownloadAddInner {
+    padding-top: 35px; }
+  .EditSolidButton {
+    font-size: 14px;
+    margin-left: 30px; }
+  .Location .ppmapIcon {
+    color: black;
+    font-size: 14px !important; }
+  .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Graduation {
+    font-size: 12px;
+    color: black;
+    line-height: 10px; }
+  .Graduation img {
+    width: 12px; }
+  .ViewText {
+    color: black;
+    font-size: 16px; }
+  .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .UserNametext {
+    font-size: 16px;
+    margin-top: 10px; }
+  .ProfileTextwrap {
+    margin-top: 20px; }
+  .ProfileTextwrap p {
+    font-size: 12px;
+    color: black;
+    line-height: 10px; }
+  .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Location {
+    color: black;
+    font-size: 12px;
+    line-height: 0; }
+  .EditLogoWrap {
+    position: inherit;
+    margin-left: -5px;
+    display: contents; }
+  .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap {
+    max-width: inherit;
+    height: inherit;
+    padding: 20px; }
+  .PlaceText {
+    font-size: 12px;
+    line-height: 10px; }
+  .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .Numberwrap {
+    font-size: 20px; }
+  .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .ServiceText {
+    font-size: 10px;
+    color: black; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .WorksItem {
+    color: black;
+    font-size: 12px; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    text-align: left; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .DU-logo img {
+    padding: 2px;
+    width: 22px;
+    height: 23px; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .BimanLogo img {
+    width: 16px;
+    height: 22px; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .mapIcon {
+    font-size: 13px !important;
+    width: 18px;
+    height: 18px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -2px; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .ContactPhoneIcon {
+    font-size: 13px !important;
+    width: 18px;
+    height: 18px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactText {
+    font-size: 10px;
+    color: black; }
+  .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap {
+    border-right: none; }
+  .SocialProfileWrap .TutorFormWrap {
+    margin-top: 15px; }
+  .SocialProfileWrap .TutorFormWrap .FormInner {
+    padding: inherit;
+    margin-left: -20px; }
+  .SocialProfileWrap .TutorFormWrap .ContactTutors {
+    color: black;
+    font-size: 16px; }
+  .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .BtnGlobWrap {
+    height: inherit;
+    font-size: 14px;
+    padding: 5px; }
+  .ModalFooterFig .btn {
+    font-size: 10px; }
+  .ModalHeaderFig {
+    padding: 10px;
+    margin-bottom: -10px; }
+  .ModalHeaderFig .btn-close {
+    font-size: 12px; }
+  .ModalHeaderFig .modal-title {
+    font-size: 12px; }
+  .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig {
+    padding: 10px; }
+  .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .form-group label {
+    font-size: 11px;
+    margin-top: 10px; }
+  .ModalBodyFig .form-group .form-control {
+    font-size: 10px; }
+  .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .form-group {
+    margin-top: 0; }
+  .ModalContentFig .modal-footer {
+    border-top: none !important;
+    margin-top: -15px; } }
+
+@media screen and (max-width: 300px) {
+  .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Graduation,
+  .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Location {
+    line-height: inherit; } }
+
+/*--VerifiedWrap/banner1 Section--*/
+.verifiedFormWrap .VerifiedWrap {
+  background-color: #eef0f4;
+  position: relative; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText {
+    margin-top: 130px; }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .BetterText {
+      font-family: 'Gordita', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #f48f1d; }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText {
+      font-family: 'Gordita', sans-serif;
+      font-size: 43px;
+      font-weight: 700;
+      color: #0c76b2;
+      margin-bottom: 30px;
+      line-height: 70px; }
+      .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText .WithVerified {
+        color: #f48f1d;
+        position: relative; }
+      .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText .WithVerified::after {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 102%;
+        left: 5px;
+        -webkit-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        top: 60px;
+        border-radius: 50%;
+        border: 4px solid #f9a23f;
+        border-color: #f9a23f transparent transparent transparent; }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .FindButton {
+      font-family: 'Gordita', sans-serif;
+      padding: 8px 25px;
+      font-size: 17px;
+      font-weight: 400;
+      text-decoration: none;
+      border-radius: 5px;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      border: none; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px; }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+      z-index: 10;
+      width: 500px;
+      height: 500px; }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+      display: block;
+      position: absolute;
+      right: 150px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 150px;
+      height: 150px;
+      bottom: 174px;
+      z-index: 1; }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+      position: absolute;
+      bottom: 0;
+      right: 0px;
+      width: 550px;
+      overflow: hidden;
+      display: block; }
+
+.verifiedFormWrap .FormInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 50px 0; }
+  .verifiedFormWrap .FormInner .FormSelection {
+    Width: 200px;
+    height: 50px;
+    padding-left: 1.75rem;
+    background-color: #eef0f4;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    border-radius: 0;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    border: 0;
+    background-position: right 1.45rem center; }
+  .verifiedFormWrap .FormInner .TuitorSolidButtton {
+    Width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border: 0;
+    border-radius: 5px; }
+  .verifiedFormWrap .FormInner .form-select:focus-visible,
+  .verifiedFormWrap .FormInner .form-select:focus {
+    -webkit-box-shadow: inherit !important;
+    box-shadow: inherit !important;
+    border: 0 !important;
+    outline: none !important;
+    border-color: inherit !important; }
+
+.TutorLightButton {
+  color: white;
+  background-color: #0c76b2;
+  border: none; }
+
+.TutorLightButton:hover {
+  background-color: #f48f1d; }
+
+@media screen and (min-width: 1367px) {
+  .verifiedFormWrap .VerifiedWrap {
+    position: inherit; }
+  .verifiedFormWrap .VerifiedWrap .VeryfiedGirlInner {
+    position: relative; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 10;
+    width: inherit;
+    height: inherit; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+    display: block;
+    position: absolute;
+    right: -53px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    bottom: 190px;
+    width: inherit;
+    height: inherit;
+    z-index: 1; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+    position: absolute;
+    bottom: 0;
+    right: -242px;
+    overflow: hidden;
+    display: block;
+    width: 634px !important;
+    height: 300px !important;
+    max-width: 150%; } }
+
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+    width: inherit;
+    height: inherit; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+    right: 30px; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+    height: 260px; } }
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+    right: 0; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+    width: 280px;
+    height: 330px; } }
+
+@media only screen and (min-width: 577px) and (max-width: 766px) {
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+    right: 80px; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+    width: 446px;
+    height: 285px; } }
+
+@media screen and (max-width: 991px) {
+  .verifiedFormWrap .FormInner {
+    display: inherit; }
+  .verifiedFormWrap .FormInner .FormSelection {
+    Width: 100%;
+    margin-top: 20px;
+    height: inherit; }
+  .verifiedFormWrap .FormInner .TuitorSolidButtton {
+    Width: 100%;
+    height: inherit;
+    padding: 6px 15px;
+    background-color: #0c76b2;
+    margin-top: 20px;
+    background-color: #06a0f7;
+    padding: 10px; } }
+
+@media screen and (max-width: 576px) {
+  .verifiedFormWrap {
+    margin-bottom: 40px; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText {
+    margin-top: 30px; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .BetterText {
+    font-size: 12px; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText {
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 20px; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText .WithVerified::after {
+    top: 22px;
+    border: 2px solid #f9a23f;
+    border-top-color: #f9a23f;
+    border-right-color: #f9a23f;
+    border-bottom-color: #f9a23f;
+    border-left-color: #f9a23f;
+    border-color: #f9a23f transparent transparent transparent;
+    width: 100%; }
+  .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .FindButton {
+    padding: 6px 15px;
+    font-size: 11px; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg {
+    margin-top: 30px; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+    width: inherit;
+    height: 400px; }
+  .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+    right: 0;
+    overflow: hidden;
+    bottom: 170px;
+    width: 100px;
+    height: 100px;
+    position: absolute; }
+  .verifiedFormWrap .FormInner {
+    padding: 15px 0; }
+  .verifiedFormWrap .FormInner .FormSelection {
+    font-size: 11px; }
+  .verifiedFormWrap .FormInner .TuitorSolidButtton {
+    padding: 6px 15px;
+    font-size: 11px;
+    margin-top: 20px;
+    padding: 10px; } }
+
+/*--VerifiedWrap Section--*/
+.LearnSearchTutorWrap {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px; }
+  .LearnSearchTutorWrap .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+  .LearnSearchTutorWrap .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%; }
+    .LearnSearchTutorWrap .carousel-inner .carousel-item {
+      width: 100%;
+      height: 100%; }
+      .LearnSearchTutorWrap .carousel-inner .carousel-item .VerifiedWrap {
+        z-index: 10;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 {
+    position: relative;
+    z-index: 1; }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .overlay img {
+      background-repeat: no-repeat;
+      margin: auto;
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      width: 100%; }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText {
+      position: -webkit-sticky;
+      position: sticky;
+      text-align: center;
+      margin-top: 180px; }
+      .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .BetterText {
+        font-family: 'Gordita', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        color: #f48f1d; }
+      .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .LearnText {
+        font-family: 'Gordita', sans-serif;
+        font-size: 70px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 30px;
+        line-height: 109px; }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 50px 0;
+      margin-bottom: 120px;
+      position: -webkit-sticky;
+      position: sticky; }
+      .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection {
+        Width: 200px;
+        height: 50px;
+        padding-left: 1.75rem;
+        background-color: white;
+        font-size: 15px;
+        font-weight: 400;
+        color: black;
+        border-radius: 0;
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+        border: 0;
+        background-position: right 1.45rem center; }
+      .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection:focus-visible,
+      .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection:focus {
+        -webkit-box-shadow: inherit !important;
+        box-shadow: inherit !important;
+        border: 0 !important;
+        outline: none !important;
+        border-color: inherit !important; }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton {
+      Width: 200px;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .btn:focus {
+      -webkit-box-shadow: inherit !important;
+      box-shadow: inherit !important; }
+
+@media screen and (min-width: 1400px) {
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText {
+    margin-top: 230px; } }
+
+@media screen and (max-width: 991px) {
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner {
+    display: inherit;
+    width: 100%; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection {
+    Width: inherit;
+    height: inherit;
+    margin-top: 20px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton {
+    margin-top: 20px;
+    background-color: #06a0f7;
+    border: 1px solid white;
+    Width: 100%; } }
+
+@media screen and (max-width: 576px) {
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText {
+    margin-top: 45px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .BetterText {
+    font-size: 12px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .LearnText {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 12px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner {
+    padding: 2px 15px;
+    margin-bottom: 45px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection {
+    font-size: 12px; }
+  .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton {
+    font-size: 13px;
+    height: inherit;
+    padding: 10px; } }
+
+/*-- About  section --*/
+.AboutWrap {
+  margin-bottom: 100px; }
+  .AboutWrap .aBoutViewIn .AboutTextInner {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    padding: 30px;
+    margin-top: -23px; }
+    .AboutWrap .aBoutViewIn .AboutTextInner .AboutText {
+      color: #5b5b5b;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21px; }
+    .AboutWrap .aBoutViewIn .AboutTextInner .TeachingText {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #595959; }
+    .AboutWrap .aBoutViewIn .AboutTextInner #more {
+      display: none; }
+  .AboutWrap .aBoutViewIn .ViewMoreInner {
+    background: #f3f3f3;
+    text-align: center;
+    padding-bottom: 18px; }
+    .AboutWrap .aBoutViewIn .ViewMoreInner #myBtn {
+      color: #0c76b2;
+      border: none;
+      margin-top: 15px;
+      background: inherit; }
+  .AboutWrap .Tuition-InfoWrap {
+    padding-bottom: 20px;
+    background-color: white;
+    /*--EducationWrap Section--*/
+    /*--EperienceProfileWrap Section--*/ }
+    .AboutWrap .Tuition-InfoWrap .TuitionInfoItem {
+      padding: 30px 30px 40px 30px;
+      border-top: 12px solid #f8f9fb; }
+      .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInfoInner .Tuition-InfoText {
+        color: #5b5b5b;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px; }
+      .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionSalaryInner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        margin-top: 20px; }
+        .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionSalaryInner .MonthText {
+          font-size: 12px;
+          text-align: end; }
+        .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionSalaryInner .NegTaiableText {
+          color: #259246; }
+      .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        position: relative;
+        padding-bottom: 20px; }
+        .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner p {
+          -ms-flex-item-align: self-end;
+          -ms-grid-row-align: self-end;
+          align-self: self-end;
+          margin: 0;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #595959; }
+        .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner .FormItem {
+          margin-top: 15px !important; }
+          .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner .FormItem .FormcInput[type="radio"] {
+            -ms-flex-item-align: revert;
+            -ms-grid-row-align: revert;
+            align-self: revert; }
+            .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner .FormItem .FormcInput[type="radio"] .FormCLabel {
+              padding-left: 10px;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 21px;
+              color: #5b5b5b; }
+      .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner::after {
+        content: "";
+        position: absolute;
+        border: 1px solid #f2f2f2;
+        width: 650px;
+        margin-left: 27px; }
+    .AboutWrap .Tuition-InfoWrap .tuitionInfoInner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+      align-items: baseline; }
+      .AboutWrap .Tuition-InfoWrap .tuitionInfoInner .EducationEditButton {
+        margin-right: 30px; }
+    .AboutWrap .Tuition-InfoWrap .EducationWrap {
+      margin-bottom: 30px;
+      padding-left: 30px;
+      padding-top: 30px;
+      border-top: 15px solid #f8f9fb; }
+      .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+        margin-top: 20px; }
+        .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap img {
+          display: block;
+          width: 47px;
+          height: 62px; }
+        .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap .ProfileTextInner {
+          margin-left: 32px;
+          line-height: 0; }
+      .AboutWrap .Tuition-InfoWrap .EducationWrap .VersityContactWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+        margin-top: 30px; }
+        .AboutWrap .Tuition-InfoWrap .EducationWrap .VersityContactWrap img {
+          display: block;
+          width: 58px;
+          height: 58px; }
+        .AboutWrap .Tuition-InfoWrap .EducationWrap .VersityContactWrap .VersityTextInner {
+          margin-left: 20px;
+          line-height: 0; }
+    .AboutWrap .Tuition-InfoWrap .YearText {
+      font-size: 14px;
+      font-weight: 400;
+      color: #b0b0b0; }
+    .AboutWrap .Tuition-InfoWrap .Designation {
+      font-size: 14px;
+      font-weight: 500;
+      color: #585858;
+      line-height: 10px; }
+    .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap {
+      border-top: 15px solid #f8f9fb;
+      padding: 20px 30px; }
+      .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap .SocialContactWrap img {
+        display: block;
+        width: 47px;
+        height: 62px; }
+      .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap .diusocialimg img {
+        width: 58px;
+        height: 58px; }
+      .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap .ProfileTextWrap1 {
+        margin-left: 10px; }
+  .AboutWrap .profiletextItem {
+    margin-left: 78px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2; }
+    .AboutWrap .profiletextItem .MainTrainerInnerText2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 25px; }
+    .AboutWrap .profiletextItem .middletext {
+      padding: 12px; }
+  .AboutWrap .MainTrainerInnerText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .AboutWrap .SocialContactWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px; }
+  .AboutWrap .MainTrainerInnerText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .AboutWrap .ProfileName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5b5b5b;
+    line-height: 21px; }
+  .AboutWrap .Tuition-InfoText {
+    color: #5b5b5b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px; }
+  .AboutWrap .leftBorderCircle {
+    position: relative; }
+  .AboutWrap .leftBorderCircle::before {
+    content: '';
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    height: 11px;
+    width: 11px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    border: 2px solid #cfcfcf;
+    z-index: 1; }
+  .AboutWrap .leftBorderCircle::after {
+    content: '';
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    height: 11px;
+    width: 11px;
+    display: block;
+    position: absolute;
+    bottom: -150px;
+    background-color: #cfcfcf;
+    left: -40px; }
+  .AboutWrap .trainertext {
+    position: relative; }
+  .AboutWrap .trainertext:before {
+    content: "";
+    height: 260px;
+    width: 2px;
+    top: -169px;
+    left: -56px;
+    display: block;
+    position: absolute;
+    border-right: 1px dashed #cfcfcf; }
+  .AboutWrap .ProtfoliosText li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959; }
+  .AboutWrap .DateYearPara {
+    font-size: 12px;
+    color: #cacaca;
+    font-weight: 400;
+    margin-top: 10px; }
+  .AboutWrap .PeopleInner2Wrap,
+  .AboutWrap .PeopleInner {
+    padding: 25px 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px; }
+    .AboutWrap .PeopleInner2Wrap .ViewText,
+    .AboutWrap .PeopleInner .ViewText {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: #5b5b5b;
+      padding-left: 0;
+      margin-bottom: 20px; }
+    .AboutWrap .PeopleInner2Wrap .FeatureAllHover,
+    .AboutWrap .PeopleInner .FeatureAllHover {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-decoration: none;
+      margin-top: 5px; }
+      .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap,
+      .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 10px; }
+        .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap img,
+        .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap img {
+          display: block;
+          width: 55px;
+          height: 55px; }
+        .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap,
+        .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap {
+          margin-left: 20px;
+          margin-top: 8px; }
+          .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName,
+          .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #5b5b5b;
+            line-height: 21px; }
+          .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap .DesignationText,
+          .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap .DesignationText {
+            color: #b0b0b0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 21px; }
+  .AboutWrap .PeopleInner2Wrap .imgroman {
+    position: relative; }
+  .AboutWrap .PeopleInner2Wrap .Activesimble {
+    position: absolute;
+    margin-left: 43px;
+    margin-top: 8px;
+    z-index: 1;
+    display: block; }
+  .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap img {
+      display: block;
+      width: 55px;
+      height: 55px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .Habibtext {
+      margin-left: 20px;
+      margin-top: 8px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .imgmohib,
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .imgroman {
+      margin-right: 15px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .ModalTitleText {
+      font-size: 16px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox {
+      margin-top: -6px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox2 {
+      margin-top: -6px;
+      margin-right: -7px; }
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox2 I,
+    .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox I {
+      color: #d4d4d4; }
+  .AboutWrap .PeopleInner2Wrap .ModalContentText {
+    -webkit-transform: translate(164%, 82%);
+    -ms-transform: translate(164%, 82%);
+    transform: translate(164%, 82%);
+    width: 260px;
+    height: 285px;
+    float: right;
+    text-align: left;
+    margin-top: inherit;
+    border-radius: 10px; }
+  .AboutWrap .PeopleInner2Wrap .ModalBodyText {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0; }
+    .AboutWrap .PeopleInner2Wrap .ModalBodyText #message-text:focus {
+      outline: none;
+      -webkit-box-shadow: inherit;
+      box-shadow: inherit; }
+  .AboutWrap .PeopleInner2Wrap .ModalfooterText {
+    border-top: 0; }
+  .AboutWrap .PeopleInner2Wrap .btn-check:focus + .btn,
+  .AboutWrap .PeopleInner2Wrap .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .AboutWrap .AdvertiseInner {
+    margin-top: 20px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #f2f2f2;
+    padding: 30px 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 7px; }
+    .AboutWrap .AdvertiseInner .ButtonMainWrap {
+      margin-top: 20px; }
+      .AboutWrap .AdvertiseInner .ButtonMainWrap .buttonAddWrap {
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 15px;
+        text-align: center;
+        display: inline-block;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        line-height: 21px;
+        font-weight: 400; }
+  .AboutWrap .DesignationText {
+    color: #b0b0b0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px; }
+
+.AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+.AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+.AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+.AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .DesignationText,
+.AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .Habibtext:hover .ProfileName,
+.AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .Habibtext:hover .DesignationText,
+.AboutWrap .PeopleInner2Wrap .FeatureAllHover .ProfileTextWrap:hover .ProfileName,
+.AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .ProfileTextWrap:hover .DesignationText,
+.AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox2:hover I,
+.AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox:hover I {
+  color: #f9a23f; }
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .AboutWrap .PeopleInner2Wrap .ModalContentText {
+    -webkit-transform: translate(100%, 82%);
+    -ms-transform: translate(100%, 82%);
+    transform: translate(100%, 82%); } }
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    -ms-flex-pack: distribute;
+    -webkit-box-pack: start;
+    justify-content: start; }
+  .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox {
+    margin-left: 10px;
+    position: relative; }
+  .AboutWrap .PeopleInner2Wrap .ModalContentText {
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    bottom: 0;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    border-radius: 10px; }
+  .tuitionInner::after {
+    display: none; }
+  .ButtonSolidwrap {
+    padding: 7px 10px; }
+  .FeaturedContactWrap {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start; }
+  .TutorFormWrap {
+    margin-top: 15px; }
+  .tuitionInner p {
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    text-align: end; }
+  .AboutWrap .PeopleInner2Wrap .Activesimble {
+    margin-left: 38px;
+    margin-top: 13px; } }
+
+@media screen and (max-width: 576px) {
+  .AboutWrap {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .AboutWrap .aBoutViewIn .AboutTextInner {
+    padding: 20px;
+    text-align: justify; }
+  .AboutWrap .aBoutViewIn .AboutTextInner .AboutText {
+    font-size: 16px;
+    color: black; }
+  .AboutWrap .aBoutViewIn .AboutTextInner .TeachingText {
+    font-size: 10px;
+    color: black;
+    margin-bottom: inherit; }
+  .AboutWrap .aBoutViewIn .ViewMoreInner {
+    padding-bottom: 10px; }
+  .AboutWrap .aBoutViewIn .ViewMoreInner #myBtn {
+    font-size: 14px;
+    margin-top: 10px; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner {
+    padding-bottom: inherit; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner::after {
+    display: none; }
+  .ServiceInnerWrap {
+    max-width: inherit;
+    height: inherit;
+    padding: 20px; }
+  .AboutWrap .Tuition-InfoWrap {
+    padding-bottom: 10px; }
+  .proResponsive {
+    padding-left: 10px; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem {
+    color: black;
+    padding: 20px; }
+  .AboutWrap .Tuition-InfoWrap .tuitionInfoInner {
+    margin-bottom: -15px; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInfoInner .Tuition-InfoText,
+  .AboutWrap .Tuition-InfoText {
+    color: black;
+    font-size: 14px; }
+  .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap img {
+    display: block;
+    width: 40px;
+    height: 55px; }
+  .form-check-label {
+    color: black;
+    font-size: 12px;
+    padding-left: 8px; }
+  .form-check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem {
+    font-size: 15px; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionSalaryInner {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner p {
+    color: black;
+    font-size: 10px;
+    text-align: end; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner .FormItem {
+    margin-top: 8px !important; }
+  .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .withoutFlex {
+    display: block; }
+  .TutorFormWrap {
+    padding: 0px 20px 12px 10px;
+    margin-bottom: 10px; }
+  .ContactTutors {
+    color: black;
+    font-size: 16px;
+    padding-top: 20px; }
+  .DocumentedText,
+  .DocumentedText li {
+    font-size: 10px;
+    color: black;
+    margin: 0;
+    padding: 0; }
+  .AboutWrap .ProtfoliosText {
+    padding: 0; }
+  .AboutWrap .ProtfoliosText li {
+    font-size: 10px;
+    color: black !important; }
+  .AboutWrap .profiletextItem {
+    margin-left: inherit;
+    border-top: inherit;
+    border-bottom: inherit; }
+  .AboutWrap .profiletextItem .MainTrainerInnerText2 {
+    display: inherit;
+    margin-top: inherit; }
+  .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap .ProfileTextInner {
+    margin-left: 25px; }
+  .AboutWrap .ProfileName {
+    font-size: 12px;
+    color: black; }
+  .AboutWrap .Tuition-InfoWrap .Designation {
+    font-size: 12px; }
+  .AboutWrap .Tuition-InfoWrap .EducationWrap .VersityContactWrap img {
+    display: block;
+    width: 45px;
+    height: 50px; }
+  .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap {
+    margin-top: 8px; }
+  .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0; }
+  .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap .SocialContactWrap img {
+    display: block;
+    width: 45px;
+    height: 50px; }
+  .AboutWrap .MainTrainerInnerText {
+    margin-left: -5px;
+    display: inherit; }
+  .AboutWrap .leftBorderCircle::before,
+  .AboutWrap .leftBorderCircle::after,
+  .AboutWrap .trainertext:before {
+    display: none; }
+  .TrainerInner {
+    padding-top: 10px; }
+  .ProfileName {
+    color: black;
+    font-size: 13px;
+    line-height: 15px; }
+  .AboutWrap .DesignationText {
+    font-size: 12px;
+    line-height: 10px; }
+  .ButtonSolidwrap {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px; }
+  .AboutWrap .Tuition-InfoWrap .YearText {
+    font-size: 12px;
+    color: inherit; }
+  .AboutWrap .Tuition-InfoWrap .EducationWrap {
+    padding-left: 20px;
+    padding-top: 20px; }
+  .AboutWrap .PeopleInner2Wrap,
+  .AboutWrap .PeopleInner {
+    padding: 20px 20px; }
+  .AboutWrap .PeopleInner2Wrap .ViewText,
+  .AboutWrap .PeopleInner .ViewText {
+    color: black;
+    font-size: 16px; }
+  .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName,
+  .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName {
+    color: black;
+    font-size: 13px;
+    line-height: 15px; }
+  .Designation {
+    line-height: 10px;
+    font-size: 12px; }
+  .ProfileTextWrap {
+    margin-left: 5px; }
+  .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    margin-top: 8px;
+    position: relative !important; }
+  .AboutWrap .PeopleInner2Wrap .ModalHeaderText {
+    padding: 0; }
+  .AboutWrap .PeopleInner2Wrap .ModalContentText {
+    -webkit-transform: translate(0, 82%) !important;
+    -ms-transform: translate(0, 82%) !important;
+    transform: translate(0, 82%) !important;
+    width: 153px;
+    height: 165px;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    padding: 10px; }
+  .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .ModalTitleText {
+    font-size: 11px;
+    margin-bottom: 5px; }
+  .AboutWrap .PeopleInner2Wrap .btn-close {
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .AboutWrap .PeopleInner2Wrap .ModalBodyText {
+    -webkit-box-flex: inherit !important;
+    -ms-flex: inherit !important;
+    flex: inherit !important;
+    padding-left: inherit !important;
+    padding-right: inherit !important;
+    padding-bottom: 8px; }
+  .AboutWrap .PeopleInner2Wrap .ModalBodyText #message-text:focus {
+    outline: none;
+    -webkit-box-shadow: inherit !important;
+    box-shadow: inherit !important; }
+  .AboutWrap .PeopleInner2Wrap .ModalBodyText .MessageBox,
+  .AboutWrap .PeopleInner2Wrap .ModalBodyText .MessageBox .form-control {
+    font-size: 10px; }
+  .AboutWrap .PeopleInner2Wrap .ModalfooterText {
+    padding: 0; }
+  .AboutWrap .PeopleInner2Wrap .ModalfooterText .btn {
+    font-size: 10px; }
+  .AboutWrap .PeopleInner2Wrap .Activesimble {
+    margin-left: 38px;
+    margin-top: 14px; }
+  .AboutWrap .AdvertiseInner {
+    padding-top: inherit;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px; }
+  .AboutWrap .AdvertiseInner .ButtonMainWrap .buttonAddWrap {
+    padding: 1px 5px;
+    font-size: 12px; } }
+
+/*--TutorCoursedWrap Section--*/
+.TutorCoursedWrap .FemaleTutorITem {
+  background-color: #eef0f4;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText {
+    padding: 35px 0px 30px 30px;
+    max-width: 260px; }
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleText {
+      font-family: 'Gordita', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #0c76b2; }
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .premiumText {
+      font-size: 24px;
+      font-weight: 500;
+      color: #252525;
+      margin-top: 15px;
+      margin-bottom: 25px; }
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleTutorButton {
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 5px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg {
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg .FemaleImg {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      overflow: hidden; }
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg:hover .FemaleImg {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+.TutorCoursedWrap .NewCourseItem {
+  background-color: #eef0f4;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseInnerText {
+    max-width: 260px;
+    padding: 35px 30px 30px 30px; }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .CourseText {
+      font-family: 'Gordita', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #0c76b2 !important; }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .findText {
+      font-size: 24px;
+      font-weight: 500;
+      color: #252525;
+      margin-top: 14px;
+      margin-bottom: 25px; }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .NewCourseButton {
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 5px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseImg {
+    display: inline-block;
+    overflow: hidden; }
+    .TutorCoursedWrap .NewCourseItem .NewCourseImg .Courseimg {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseImg:hover .Courseimg {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+@media screen and (max-width: 991px) {
+  .TutorCoursedWrap .NewCourseItem {
+    margin-top: 25px; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseImg .Courseimg {
+    width: auto; } }
+
+@media screen and (max-width: 576px) {
+  .TutorCoursedWrap .FemaleTutorITem {
+    display: inherit;
+    margin-top: -30px; }
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText {
+    padding: 20px 0px 25px 20px; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .CourseText,
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleText {
+    font-size: 11px; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .findText,
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .premiumText {
+    font-size: 15px;
+    margin-top: 5px; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .NewCourseButton,
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleTutorButton {
+    padding: 8px 15px;
+    font-size: 11px; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseImg,
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg {
+    width: 100%;
+    display: block; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseImg .Courseimg,
+  .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg .FemaleImg {
+    width: 100%; }
+  .TutorCoursedWrap .NewCourseItem {
+    margin-top: 25px;
+    display: inherit; }
+  .TutorCoursedWrap .NewCourseItem .NewCourseInnerText {
+    padding: 20px 20px 30px 20px; } }
+
+/*--FeaturedTutorsWrap Section--*/
+.FeaturedTutorsWrap {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px; }
+  .FeaturedTutorsWrap .TutorItemAllHover {
+    text-decoration: none;
+    color: inherit; }
+  .FeaturedTutorsWrap .ExplorerIteM .propertyWrap {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #252525; }
+  .FeaturedTutorsWrap .ExplorerIteM .FeaturedTexts {
+    position: relative; }
+  .FeaturedTutorsWrap .ExplorerIteM .FeaturedTexts::after {
+    content: "";
+    position: absolute;
+    height: 33px;
+    width: 104px;
+    left: 14px;
+    top: 35px;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    border-radius: 50%;
+    border: 3px solid #ffc837;
+    border-color: #ffc837 transparent transparent transparent; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem {
+    display: block;
+    padding: 0 0 40px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 110px;
+    border-radius: 5px;
+    width: 100%; }
+    .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorIcon {
+      width: 140px;
+      height: 140px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto -60px; }
+      .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorIcon img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: inline-block;
+        margin-top: 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner {
+      margin-bottom: 25px; }
+      .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .Tutor-Name {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        color: black;
+        text-decoration: none; }
+      .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .MonthlySallaryText {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
+        color: #2c2c2c; }
+      .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .Location {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #707070; }
+      .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .checked {
+        color: orange; }
+    .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .DetailsButton {
+      padding: 8px 25px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      border-radius: 5px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      border: none; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem:hover .TutorIcon img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+@media only screen and (min-width: 577px) and (max-width: 766px) {
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .Tutor-Name {
+    font-size: 20px; } }
+
+@media screen and (max-width: 576px) {
+  .FeaturedTutorsWrap {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: inherit; }
+  .FeaturedTutorsWrap .ExplorerIteM .propertyWrap {
+    margin-top: 30px;
+    font-size: 15px; }
+  .FeaturedTutorsWrap .ExplorerIteM .FeaturedTexts::after {
+    width: 80px;
+    left: -4px;
+    top: 20px;
+    border: 2px solid #ffc837;
+    border-color: #ffc837 transparent transparent transparent; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem {
+    padding: 20px 0;
+    margin-top: 70px; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorIcon {
+    margin: 0 auto -100px;
+    width: auto; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorIcon img {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translateY(-3%);
+    -ms-transform: translateY(-3%);
+    transform: translateY(-3%);
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner {
+    margin-bottom: 15px;
+    line-height: 12px; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .Tutor-Name {
+    font-size: 14px;
+    line-height: 12px; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .MonthlySallaryText,
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .TutorInner .Location {
+    font-size: 12px; }
+  .FeaturedTutorsWrap .FeaturedCatagory .TutorItem .DetailsButton {
+    padding: 6px 15px;
+    font-size: 11px; } }
+
+/*--AchieveGoals Section--*/
+.AchieveGoalsWrap .MainAchiever {
+  background-color: #f7f7f7;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .AchieveGoalsWrap .MainAchiever .AcgieveInnerText {
+    padding: 20px;
+    padding-left: 60px; }
+    .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .AchieveText {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #252525; }
+    .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .accountText {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 25px; }
+    .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .ButtonArrowWrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: start;
+      margin-left: -65px; }
+      .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .ButtonArrowWrap .Goals-RightBarImg img {
+        margin-top: -30px;
+        margin-right: 15px; }
+      .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .ButtonArrowWrap .freeButton {
+        padding: 8px 25px;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        text-decoration: none;
+        border-radius: 5px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+  .AchieveGoalsWrap .MainAchiever .Goals-StudyImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    overflow: hidden; }
+    .AchieveGoalsWrap .MainAchiever .Goals-StudyImg img {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .AchieveGoalsWrap .MainAchiever .Goals-StudyImg img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+
+@media screen and (max-width: 576px) {
+  .AchieveGoalsWrap .MainAchiever {
+    display: block; }
+  .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .AchieveText {
+    font-size: 15px;
+    margin-bottom: 20px; }
+  .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .accountText {
+    font-size: 12px; }
+  .AchieveGoalsWrap .MainAchiever .Goals-StudyImg {
+    position: inherit;
+    margin-top: 20px; }
+  .AchieveGoalsWrap .MainAchiever .AcgieveInnerText .ButtonArrowWrap .freeButton {
+    padding: 6px 12px;
+    font-size: 11px; } }
+
+/*--JoinedTutorsWrap Section*/
+.RecentlyJoinText .ReCentlyText {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #252525; }
+
+.RecentlyJoinText .JoinText {
+  position: relative; }
+
+.RecentlyJoinText .JoinText::after {
+  content: "";
+  position: absolute;
+  height: 33px;
+  width: 110px;
+  left: 5px;
+  top: 35px;
+  -webkit-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+  border-radius: 50%;
+  border: 3px solid #ffc837;
+  border-color: #ffc837 transparent transparent transparent; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-item img {
+  display: inline-block;
+  width: inherit;
+  text-align: center; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-theme .owl-nav {
+  position: relative;
+  margin-top: 25px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-prev {
+  position: absolute;
+  left: 0;
+  top: -190px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-next {
+  position: absolute;
+  right: 0;
+  top: -190px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-prev,
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-next {
+  background: white;
+  color: #a7a7a7;
+  width: 60px;
+  height: 60px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50%; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-prev {
+  margin-left: -22px;
+  margin-top: -30px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-next {
+  margin-right: -22px;
+  margin-top: 0px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-prev:focus-visible,
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-next:focus-visible {
+  border: inherit !important;
+  border: 0;
+  outline: none; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 16px;
+  padding: 4px 7px;
+  background: red;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: #f48f1d;
+  color: white; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-next,
+.RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-prev,
+.RecentJoinedTutorsWrap .blog_content .owl-carousel button.owl-dot {
+  cursor: pointer !important;
+  padding: inherit !important;
+  display: block;
+  padding-bottom: 10px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-prev {
+  position: relative; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-prev > span:nth-child(1) {
+  position: absolute;
+  top: -4px;
+  text-align: center;
+  left: 22px;
+  font-size: 40px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-next > span:nth-child(1) {
+  position: absolute;
+  top: -4px;
+  text-align: center;
+  right: 22px;
+  font-size: 40px; }
+
+.RecentJoinedTutorsWrap .blog_content .owl-item .blog_item {
+  margin: 7px; }
+
+@media screen and (max-width: 991px) {
+  .owl-carousel.owl-loaded {
+    overflow: hidden; } }
+
+@media screen and (max-width: 576px) {
+  .RecentlyJoinText .ReCentlyText {
+    font-size: 15px; }
+  .RecentlyJoinText .JoinText::after {
+    width: 62px;
+    top: 20px;
+    left: 0px;
+    border: 2px solid #ffc837;
+    border-color: #ffc837 transparent transparent transparent; }
+  .RecentJoinedTutorsWrap .blog_content .owl-theme .owl-nav {
+    margin-top: 85px; }
+  .RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    margin-left: -12px; }
+  .RecentJoinedTutorsWrap .blog_content .owl-prev > span:nth-child(1) {
+    left: 15px;
+    display: block;
+    top: -5px;
+    font-size: 30px; }
+  .RecentJoinedTutorsWrap .blog_content .owl-carousel .owl-nav button.owl-next {
+    margin-right: -12px;
+    width: 40px;
+    height: 40px; }
+  .RecentJoinedTutorsWrap .blog_content .owl-next > span:nth-child(1) {
+    display: block;
+    top: -5px;
+    text-align: center;
+    right: 15px;
+    font-size: 30px; } }
+
+/*--Fotter Section--*/
+.ProfileFooterBox {
+  background-color: #0c76b2;
+  color: white;
+  padding-top: 60px;
+  margin-top: -60px; }
+  .ProfileFooterBox .FotterTextInner {
+    margin-top: 10px;
+    padding-bottom: 40px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .LogoPara {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      max-width: 296px;
+      text-align: justify;
+      margin-top: 20px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: start;
+      padding: 0;
+      margin: 0; }
+      .ProfileFooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap li a {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 20px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 50%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerTitle {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 500;
+      margin-top: 20px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerMenu {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-top: 20px; }
+      .ProfileFooterBox .FotterTextInner .footerItem .footerMenu .LookingText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 40px;
+        text-align: left;
+        max-width: 241px; }
+      .ProfileFooterBox .FotterTextInner .footerItem .footerMenu li a {
+        font-size: 14px;
+        line-height: 33px;
+        font-weight: 400;
+        color: white;
+        text-decoration: none; }
+      .ProfileFooterBox .FotterTextInner .footerItem .footerMenu a:hover {
+        color: #ff8800;
+        text-decoration: underline; }
+    .ProfileFooterBox .FotterTextInner .footerItem .RegisterButton {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 138px;
+      height: 46px;
+      border-radius: 3px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact .UpdatePara {
+      padding-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: auto; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email {
+      color: white !important;
+      background: #0c76b2;
+      width: 231px;
+      height: 37px;
+      border-radius: 3px;
+      border: 1px solid #e7e7e7;
+      outline: none;
+      padding-left: 10px;
+      font-size: 14px;
+      font-weight: 400; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email::-webkit-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email:-ms-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email::-ms-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email::placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .ProfileFooterBox .FotterTextInner .footerItem .SubscribeButton {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 138px;
+      height: 46px;
+      border-radius: 3px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      outline: none;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .ProfileFooterBox .footerbottom {
+    background-color: #005789;
+    padding-top: 20px; }
+    .ProfileFooterBox .footerbottom .copyrightWrap p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center; }
+
+@media screen and (max-width: 576px) {
+  .ProfileFooterBox {
+    padding-top: 10px;
+    margin-top: -20px; }
+  .ProfileFooterBox .FotterTextInner {
+    padding-bottom: 30px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .FooterLogo img {
+    display: block;
+    width: 120px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .LogoPara {
+    font-size: 12px;
+    text-align: left; }
+  .ProfileFooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap li .SocialButton {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 10px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .footerTitle {
+    font-size: 14px;
+    margin-top: 40px; }
+  .FooterBox .FotterTextInner .footerItem .footerMenu {
+    margin-top: 10px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .footerMenu li a,
+  .ProfileFooterBox .FotterTextInner .footerItem .footerMenu .LookingText,
+  .ProfileFooterBox .FotterTextInner .footerItem .footerContact .UpdatePara {
+    font-size: 12px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .RegisterButton {
+    margin-top: -20px;
+    font-size: 12px;
+    width: 100px;
+    height: 30px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .footerContact #email {
+    color: white !important;
+    background: #0c76b2;
+    width: 190px;
+    height: 35px; }
+  .ProfileFooterBox .FotterTextInner .footerItem .SubscribeButton {
+    font-size: 12px;
+    width: 100px;
+    height: 30px; }
+  .ProfileFooterBox .footerbottom .copyrightWrap p {
+    font-size: 12px; } }
+
+/*--Fotter Section--*/
+.FooterBox {
+  background-color: #0c76b2;
+  color: white;
+  padding-top: 60px;
+  margin-top: -70px; }
+  .FooterBox .FotterTextInner {
+    margin-top: 10px;
+    padding-bottom: 40px; }
+    .FooterBox .FotterTextInner .footerItem .LogoPara {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      max-width: 296px;
+      text-align: justify;
+      margin-top: 20px; }
+    .FooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: start;
+      padding: 0;
+      margin: 0; }
+      .FooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap li .SocialButton {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 20px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 50%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .FooterBox .FotterTextInner .footerItem .footerTitle {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 500;
+      margin-top: 20px; }
+    .FooterBox .FotterTextInner .footerItem .footerMenu {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-top: 20px; }
+      .FooterBox .FotterTextInner .footerItem .footerMenu .LookingText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 40px;
+        text-align: left;
+        max-width: 241px; }
+      .FooterBox .FotterTextInner .footerItem .footerMenu li a {
+        font-size: 14px;
+        line-height: 33px;
+        font-weight: 400;
+        color: white;
+        text-decoration: none; }
+      .FooterBox .FotterTextInner .footerItem .footerMenu a:hover {
+        color: #ff8800;
+        text-decoration: underline; }
+    .FooterBox .FotterTextInner .footerItem .RegisterButton {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 138px;
+      height: 46px;
+      border-radius: 3px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .FooterBox .FotterTextInner .footerItem .footerContact .UpdatePara {
+      padding-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: auto; }
+    .FooterBox .FotterTextInner .footerItem .footerContact #email {
+      color: white !important;
+      background: #0c76b2;
+      width: 231px;
+      height: 37px;
+      border-radius: 3px;
+      border: 1px solid #e7e7e7;
+      outline: none;
+      padding-left: 10px;
+      font-size: 14px;
+      font-weight: 400; }
+    .FooterBox .FotterTextInner .footerItem .footerContact #email::-webkit-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .FooterBox .FotterTextInner .footerItem .footerContact #email:-ms-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .FooterBox .FotterTextInner .footerItem .footerContact #email::-ms-input-placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .FooterBox .FotterTextInner .footerItem .footerContact #email::placeholder {
+      color: #ddd !important;
+      font-size: 14px; }
+    .FooterBox .FotterTextInner .footerItem .SubscribeButton {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 138px;
+      height: 46px;
+      border-radius: 3px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      outline: none;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .FooterBox .footerbottom {
+    background-color: #005789;
+    padding-top: 20px; }
+    .FooterBox .footerbottom .copyrightWrap p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center; }
+
+.RegSubSolidButton {
+  border: 1px solid #e7e7e7;
+  background-color: white;
+  color: #0c76b2; }
+
+.RegSubSolidButton:hover {
+  color: #ff8800;
+  border: 1px solid white;
+  background-color: transparent; }
+
+@media screen and (max-width: 576px) {
+  .FooterBox {
+    padding-top: 10px;
+    margin-top: -70px; }
+  .FooterBox .FotterTextInner {
+    padding-bottom: 30px; }
+  .FooterBox .FotterTextInner .footerItem .FooterLogo img {
+    display: block;
+    width: 120px; }
+  .FooterBox .FotterTextInner .footerItem .LogoPara {
+    font-size: 12px;
+    text-align: left; }
+  .FooterBox .FotterTextInner .footerItem .SocialFooterEnd .SocialLogoWrap li .SocialButton {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 10px; }
+  .FooterBox .FotterTextInner .footerItem .footerTitle {
+    font-size: 14px;
+    margin-top: 40px; }
+  .FooterBox .FotterTextInner .footerItem .footerMenu {
+    margin-top: 10px; }
+  .FooterBox .FotterTextInner .footerItem .footerMenu li .SocialButton,
+  .FooterBox .FotterTextInner .footerItem .footerMenu .LookingText,
+  .FooterBox .FotterTextInner .footerItem .footerContact .UpdatePara {
+    font-size: 12px; }
+  .FooterBox .FotterTextInner .footerItem .RegisterButton {
+    margin-top: -20px;
+    font-size: 12px;
+    width: 100px;
+    height: 30px; }
+  .FooterBox .FotterTextInner .footerItem .footerContact #email {
+    color: white !important;
+    background: #0c76b2;
+    width: 190px;
+    height: 35px; }
+  .FooterBox .FotterTextInner .footerItem .SubscribeButton {
+    font-size: 12px;
+    width: 100px;
+    height: 30px; }
+  .FooterBox .footerbottom .copyrightWrap p {
+    font-size: 12px; } }

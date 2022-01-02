@@ -1,0 +1,748 @@
+            /*-- About  section --*/
+            
+            .AboutWrap {
+                margin-bottom: 100px;
+                .aBoutViewIn {
+                    .AboutTextInner {
+                        background-color: white;
+                        border: 1px solid #f2f2f2;
+                        padding: 30px;
+                        margin-top: -23px;
+                        .AboutText {
+                            color: #5b5b5b;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 21px;
+                        }
+                        .TeachingText {
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            color: #595959;
+                        }
+                        #more {
+                            display: none;
+                        }
+                    }
+                    .ViewMoreInner {
+                        background: #f3f3f3;
+                        text-align: center;
+                        padding-bottom: 18px;
+                        #myBtn {
+                            color: #0c76b2;
+                            border: none;
+                            margin-top: 15px;
+                            background: inherit;
+                        }
+                    }
+                }
+                .Tuition-InfoWrap {
+                    padding-bottom: 20px;
+                    background-color: white;
+                    .TuitionInfoItem {
+                        padding: 30px 30px 40px 30px;
+                        border-top: 12px solid #f8f9fb;
+                        .tuitionInfoInner {
+                            .Tuition-InfoText {
+                                color: #5b5b5b;
+                                font-size: 18px;
+                                font-weight: 500;
+                                line-height: 21px;
+                            }
+                        }
+                        .tuitionSalaryInner {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: baseline;
+                            margin-top: 20px;
+                            .MonthText {
+                                font-size: 12px;
+                                text-align: end;
+                            }
+                            .NegTaiableText {
+                                color: #259246;
+                            }
+                        }
+                        .tuitionInner {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: baseline;
+                            position: relative;
+                            padding-bottom: 20px;
+                            p {
+                                align-self: self-end;
+                                margin: 0;
+                                font-size: 12px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                color: #595959;
+                            }
+                            .FormItem {
+                                margin-top: 15px!important;
+                                .FormcInput[type="radio"] {
+                                    align-self: revert;
+                                    .FormCLabel {
+                                        padding-left: 10px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 21px;
+                                        color: #5b5b5b;
+                                    }
+                                }
+                            }
+                        }
+                        .tuitionInner::after {
+                            content: "";
+                            position: absolute;
+                            border: 1px solid #f2f2f2;
+                            width: 650px;
+                            margin-left: 27px;
+                        }
+                    }
+                    .tuitionInfoInner {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: baseline;
+                        .EducationEditButton {
+                            margin-right: 30px;
+                        }
+                    }
+                    /*--EducationWrap Section--*/
+                    .EducationWrap {
+                        margin-bottom: 30px;
+                        padding-left: 30px;
+                        padding-top: 30px;
+                        border-top: 15px solid #f8f9fb;
+                        .AcademyContactWrap {
+                            display: flex;
+                            text-align: left;
+                            margin-top: 20px;
+                            img {
+                                display: block;
+                                width: 47px;
+                                height: 62px;
+                            }
+                            .ProfileTextInner {
+                                margin-left: 32px;
+                                line-height: 0;
+                            }
+                        }
+                        .VersityContactWrap {
+                            display: flex;
+                            text-align: left;
+                            margin-top: 30px;
+                            img {
+                                display: block;
+                                width: 58px;
+                                height: 58px;
+                            }
+                            .VersityTextInner {
+                                margin-left: 20px;
+                                line-height: 0;
+                            }
+                        }
+                    }
+                    .YearText {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #b0b0b0;
+                    }
+                    .Designation {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #585858;
+                        line-height: 10px;
+                    }
+                    /*--EperienceProfileWrap Section--*/
+                    .ExperienceProfileWrap {
+                        border-top: 15px solid #f8f9fb;
+                        padding: 20px 30px;
+                        .SocialContactWrap {
+                            img {
+                                display: block;
+                                width: 47px;
+                                height: 62px;
+                            }
+                        }
+                        .diusocialimg img {
+                            width: 58px;
+                            height: 58px;
+                        }
+                        .ProfileTextWrap1 {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                .profiletextItem {
+                    margin-left: 78px;
+                    border-top: 1px solid #f2f2f2;
+                    border-bottom: 1px solid #f2f2f2;
+                    .MainTrainerInnerText2 {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 25px;
+                    }
+                    .middletext {
+                        padding: 12px;
+                    }
+                }
+                .MainTrainerInnerText {
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: space-between;
+                }
+                .SocialContactWrap {
+                    display: flex;
+                    margin-top: 20px;
+                }
+                .MainTrainerInnerText {
+                    display: flex;
+                    margin-left: 20px;
+                    justify-content: space-between;
+                }
+                .ProfileName {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #5b5b5b;
+                    line-height: 21px;
+                }
+                .Tuition-InfoText {
+                    color: #5b5b5b;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 21px;
+                }
+                .leftBorderCircle {
+                    position: relative;
+                }
+                .leftBorderCircle::before {
+                    content: '';
+                    border-radius: 30px;
+                    -webkit-border-radius: 30px;
+                    -moz-border-radius: 30px;
+                    height: 11px;
+                    width: 11px;
+                    display: block;
+                    position: absolute;
+                    top: 5px;
+                    left: -40px;
+                    border: 2px solid #cfcfcf;
+                    z-index: 1;
+                }
+                .leftBorderCircle::after {
+                    content: '';
+                    border-radius: 30px;
+                    -webkit-border-radius: 30px;
+                    -moz-border-radius: 30px;
+                    height: 11px;
+                    width: 11px;
+                    display: block;
+                    position: absolute;
+                    bottom: -150px;
+                    background-color: #cfcfcf;
+                    left: -40px;
+                }
+                .trainertext {
+                    position: relative;
+                }
+                .trainertext:before {
+                    content: "";
+                    height: 260px;
+                    width: 2px;
+                    top: -169px;
+                    left: -56px;
+                    display: block;
+                    position: absolute;
+                    border-right: 1px dashed #cfcfcf;
+                }
+                .ProtfoliosText li {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #595959;
+                }
+                .DateYearPara {
+                    font-size: 12px;
+                    color: #cacaca;
+                    font-weight: 400;
+                    margin-top: 10px;
+                }
+                .PeopleInner2Wrap,
+                .PeopleInner {
+                    padding: 25px 25px;
+                    background-color: white;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    .ViewText {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #5b5b5b;
+                        padding-left: 0;
+                        margin-bottom: 20px;
+                    }
+                    .FeatureAllHover {
+                        display: flex;
+                        text-decoration: none;
+                        margin-top: 5px;
+                        .SocialContactWrap {
+                            display: flex;
+                            margin-top: 10px;
+                            img {
+                                display: block;
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .ProfileTextWrap {
+                                margin-left: 20px;
+                                margin-top: 8px;
+                                .ProfileName {
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: #5b5b5b;
+                                    line-height: 21px;
+                                }
+                                .DesignationText {
+                                    color: #b0b0b0;
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .PeopleInner2Wrap {
+                    .imgroman {
+                        position: relative;
+                    }
+                    .Activesimble {
+                        position: absolute;
+                        margin-left: 43px;
+                        margin-top: 8px;
+                        z-index: 1;
+                        display: block;
+                    }
+                    .FeaturedContactWrap {
+                        display: flex;
+                        margin-top: 10px;
+                        justify-content: space-around;
+                        img {
+                            display: block;
+                            width: 55px;
+                            height: 55px;
+                        }
+                        .Habibtext {
+                            margin-left: 20px;
+                            margin-top: 8px;
+                        }
+                        .imgmohib,
+                        .imgroman {
+                            margin-right: 15px;
+                        }
+                        .ModalTitleText {
+                            font-size: 16px;
+                        }
+                        .CommentBox {
+                            margin-top: -6px;
+                        }
+                        .CommentBox2 {
+                            margin-top: -6px;
+                            margin-right: -7px;
+                        }
+                        .CommentBox2 I,
+                        .CommentBox I {
+                            color: #d4d4d4;
+                        }
+                    }
+                    .ModalContentText {
+                        transform: translate(164%, 82%);
+                        width: 260px;
+                        height: 285px;
+                        float: right;
+                        text-align: left;
+                        margin-top: inherit;
+                        border-radius: 10px;
+                    }
+                    .ModalBodyText {
+                        flex: 0;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-top: 0;
+                        #message-text:focus {
+                            outline: none;
+                            box-shadow: inherit;
+                        }
+                    }
+                    .ModalfooterText {
+                        border-top: 0;
+                    }
+                    .btn-check:focus+.btn,
+                    .btn:focus {
+                        box-shadow: none !important;
+                    }
+                }
+                .AdvertiseInner {
+                    margin-top: 20px;
+                    background-color: white;
+                    display: flex;
+                    border: 1px solid #f2f2f2;
+                    padding: 30px 20px;
+                    align-items: center;
+                    padding-top: 7px;
+                    .ButtonMainWrap {
+                        margin-top: 20px;
+                        .buttonAddWrap {
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            margin-left: 15px;
+                            text-align: center;
+                            display: inline-block;
+                            transition: all 0.5s;
+                            text-decoration: none;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 13px;
+                            line-height: 21px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .DesignationText {
+                    color: #b0b0b0;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            
+            .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+            .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+            .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .ProfileName,
+            .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap:hover .DesignationText,
+            .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .Habibtext:hover .ProfileName,
+            .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .Habibtext:hover .DesignationText,
+            .AboutWrap .PeopleInner2Wrap .FeatureAllHover .ProfileTextWrap:hover .ProfileName,
+            .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .ProfileTextWrap:hover .DesignationText,
+            .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox2:hover I,
+            .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox:hover I {
+                color: #f9a23f;
+            }
+            
+            @media only screen and (min-width: 992px) and (max-width: 1300px) {
+                .AboutWrap .PeopleInner2Wrap .ModalContentText {
+                    -webkit-transform: translate(100%, 82%);
+                    transform: translate(100%, 82%);
+                }
+            }
+            
+            @media only screen and (min-width: 577px) and (max-width: 991px) {
+                .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    margin-top: 10px;
+                    -ms-flex-pack: distribute;
+                    justify-content: start;
+                }
+                .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .CommentBox {
+                    margin-left: 10px;
+                    position: relative;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalContentText {
+                    position: absolute;
+                    right: 50px;
+                    top: 200px;
+                    bottom: 0;
+                    transform: none!important;
+                    border-radius: 10px;
+                }
+                .tuitionInner::after {
+                    display: none;
+                }
+                .ButtonSolidwrap {
+                    padding: 7px 10px;
+                }
+                .FeaturedContactWrap {
+                    justify-content: start;
+                }
+                .TutorFormWrap {
+                    margin-top: 15px;
+                }
+                .tuitionInner p {
+                    align-items: inherit;
+                    text-align: end;
+                }
+                .AboutWrap .PeopleInner2Wrap .Activesimble {
+                    margin-left: 38px;
+                    margin-top: 13px;
+                }
+            }
+            
+            @media screen and (max-width: 576px) {
+                .AboutWrap {
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+                .AboutWrap .aBoutViewIn .AboutTextInner {
+                    padding: 20px;
+                    text-align: justify;
+                }
+                .AboutWrap .aBoutViewIn .AboutTextInner .AboutText {
+                    font-size: 16px;
+                    color: black;
+                }
+                .AboutWrap .aBoutViewIn .AboutTextInner .TeachingText {
+                    font-size: 10px;
+                    color: black;
+                    margin-bottom: inherit;
+                }
+                .AboutWrap .aBoutViewIn .ViewMoreInner {
+                    padding-bottom: 10px;
+                }
+                .AboutWrap .aBoutViewIn .ViewMoreInner #myBtn {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner {
+                    padding-bottom: inherit;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner::after {
+                    display: none;
+                }
+                .ServiceInnerWrap {
+                    max-width: inherit;
+                    height: inherit;
+                    padding: 20px;
+                }
+                .AboutWrap .Tuition-InfoWrap {
+                    padding-bottom: 10px;
+                }
+                .proResponsive {
+                    padding-left: 10px;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem {
+                    color: black;
+                    padding: 20px;
+                }
+                .AboutWrap .Tuition-InfoWrap .tuitionInfoInner {
+                    margin-bottom: -15px;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInfoInner .Tuition-InfoText,
+                .AboutWrap .Tuition-InfoText {
+                    color: black;
+                    font-size: 14px;
+                }
+                .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap img {
+                    display: block;
+                    width: 40px;
+                    height: 55px;
+                }
+                .form-check-label {
+                    color: black;
+                    font-size: 12px;
+                    padding-left: 8px;
+                }
+                .form-check {
+                    display: flex;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem {
+                    font-size: 15px;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionSalaryInner {
+                    align-items: center;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner p {
+                    color: black;
+                    font-size: 10px;
+                    text-align: end;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .tuitionInner .FormItem {
+                    margin-top: 8px !important;
+                }
+                .AboutWrap .Tuition-InfoWrap .TuitionInfoItem .withoutFlex {
+                    display: block;
+                }
+                .TutorFormWrap {
+                    padding: 0px 20px 12px 10px;
+                    margin-bottom: 10px;
+                }
+                .ContactTutors {
+                    color: black;
+                    font-size: 16px;
+                    padding-top: 20px;
+                }
+                .DocumentedText,
+                .DocumentedText li {
+                    font-size: 10px;
+                    color: black;
+                    margin: 0;
+                    padding: 0;
+                }
+                .AboutWrap .ProtfoliosText {
+                    padding: 0;
+                }
+                .AboutWrap .ProtfoliosText li {
+                    font-size: 10px;
+                    color: black!important;
+                }
+                .AboutWrap .profiletextItem {
+                    margin-left: inherit;
+                    border-top: inherit;
+                    border-bottom: inherit;
+                }
+                .AboutWrap .profiletextItem .MainTrainerInnerText2 {
+                    display: inherit;
+                    margin-top: inherit;
+                }
+                .AboutWrap .Tuition-InfoWrap .EducationWrap .AcademyContactWrap .ProfileTextInner {
+                    margin-left: 25px;
+                }
+                .AboutWrap .ProfileName {
+                    font-size: 12px;
+                    color: black;
+                }
+                .AboutWrap .Tuition-InfoWrap .Designation {
+                    font-size: 12px;
+                }
+                .AboutWrap .Tuition-InfoWrap .EducationWrap .VersityContactWrap img {
+                    display: block;
+                    width: 45px;
+                    height: 50px;
+                }
+                .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap {
+                    margin-top: 8px;
+                }
+                .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap {
+                    padding-left: 20px;
+                    padding-top: 20px;
+                    padding-bottom: 0;
+                }
+                .AboutWrap .Tuition-InfoWrap .ExperienceProfileWrap .SocialContactWrap img {
+                    display: block;
+                    width: 45px;
+                    height: 50px;
+                }
+                .AboutWrap .MainTrainerInnerText {
+                    margin-left: -5px;
+                    display: inherit;
+                }
+                .AboutWrap .leftBorderCircle::before,
+                .AboutWrap .leftBorderCircle::after,
+                .AboutWrap .trainertext:before {
+                    display: none;
+                }
+                .TrainerInner {
+                    padding-top: 10px;
+                }
+                .ProfileName {
+                    color: black;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+                .AboutWrap .DesignationText {
+                    font-size: 12px;
+                    line-height: 10px;
+                }
+                .ButtonSolidwrap {
+                    display: inline-block;
+                    padding: 5px 10px;
+                    font-size: 12px;
+                }
+                .AboutWrap .Tuition-InfoWrap .YearText {
+                    font-size: 12px;
+                    color: inherit;
+                }
+                .AboutWrap .Tuition-InfoWrap .EducationWrap {
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                .AboutWrap .PeopleInner2Wrap,
+                .AboutWrap .PeopleInner {
+                    padding: 20px 20px;
+                }
+                .AboutWrap .PeopleInner2Wrap .ViewText,
+                .AboutWrap .PeopleInner .ViewText {
+                    color: black;
+                    font-size: 16px;
+                }
+                .AboutWrap .PeopleInner2Wrap .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName,
+                .AboutWrap .PeopleInner .FeatureAllHover .SocialContactWrap .ProfileTextWrap .ProfileName {
+                    color: black;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+                .Designation {
+                    line-height: 10px;
+                    font-size: 12px;
+                }
+                .ProfileTextWrap {
+                    margin-left: 5px;
+                }
+                .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap {
+                    justify-content: start;
+                    margin-top: 8px;
+                    position: relative !important;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalHeaderText {
+                    padding: 0;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalContentText {
+                    -webkit-transform: translate(0, 82%)!important;
+                    transform: translate(0, 82%)!important;
+                    width: 153px;
+                    height: 165px;
+                    position: absolute;
+                    right: 0;
+                    border-radius: 10px;
+                    padding: 10px;
+                } 
+                .AboutWrap .PeopleInner2Wrap .FeaturedContactWrap .ModalTitleText {
+                    font-size: 11px;
+                    margin-bottom: 5px;
+                }
+                .AboutWrap .PeopleInner2Wrap .btn-close {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalBodyText {
+                    -webkit-box-flex: inherit!important;
+                    -ms-flex: inherit!important;
+                    flex: inherit!important;
+                    padding-left: inherit!important;
+                    padding-right: inherit!important;
+                    padding-bottom: 8px;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalBodyText #message-text:focus {
+                    outline: none;
+                    -webkit-box-shadow: inherit!important;
+                    box-shadow: inherit!important;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalBodyText .MessageBox,
+                .AboutWrap .PeopleInner2Wrap .ModalBodyText .MessageBox .form-control {
+                    font-size: 10px;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalfooterText {
+                    padding: 0;
+                }
+                .AboutWrap .PeopleInner2Wrap .ModalfooterText .btn {
+                    font-size: 10px;
+                }
+                .AboutWrap .PeopleInner2Wrap .Activesimble {
+                    margin-left: 38px;
+                    margin-top: 14px;
+                }
+                .AboutWrap .AdvertiseInner {
+                    padding-top: inherit;
+                    margin-bottom: 20px;
+                    padding-left: 10px;
+                    padding-bottom: 20px;
+                }
+                .AboutWrap .AdvertiseInner .ButtonMainWrap .buttonAddWrap {
+                    padding: 1px 5px;
+                    font-size: 12px;
+                }
+            }

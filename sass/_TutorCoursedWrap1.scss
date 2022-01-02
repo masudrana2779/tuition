@@ -1,0 +1,149 @@
+/*--TutorCoursedWrap Section--*/
+
+.TutorCoursedWrap {
+    .FemaleTutorITem {
+        background-color: #eef0f4;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .FemaleTutorInnerText {
+            padding: 35px 0px 30px 30px;
+            max-width: 260px;
+            .FemaleText {
+                font-family: 'Gordita', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #0c76b2;
+            }
+            .premiumText {
+                font-size: 24px;
+                font-weight: 500;
+                color: #252525;
+                margin-top: 15px;
+                margin-bottom: 25px;
+            }
+            .FemaleTutorButton {
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+                border-radius: 5px;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            
+            }
+        }
+        .FemaleTutorImg {
+            display: inline-block;
+            overflow: hidden;
+            transition: all 0.5s;
+            .FemaleImg {
+                transition: all 0.5s;
+                overflow: hidden;
+            }
+        }
+        .FemaleTutorImg:hover .FemaleImg {
+            -ms-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+    .NewCourseItem {
+        background-color: #eef0f4;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .NewCourseInnerText {
+            max-width: 260px;
+            padding: 35px 30px 30px 30px;
+            .CourseText {
+                font-family: 'Gordita', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #0c76b2!important;
+            }
+            .findText {
+                font-size: 24px;
+                font-weight: 500;
+                color: #252525;
+                margin-top: 14px;
+                margin-bottom: 25px;
+            }
+            .NewCourseButton {
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+                border-radius: 5px;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+        }
+        .NewCourseImg {
+            display: inline-block;
+            overflow: hidden;
+            .Courseimg {
+                transition: all 0.5s;
+            }
+        }
+        .NewCourseImg:hover .Courseimg {
+            -ms-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .TutorCoursedWrap .NewCourseItem {
+        margin-top: 25px;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseImg .Courseimg {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .TutorCoursedWrap .FemaleTutorITem {
+        display: inherit;
+        margin-top: -30px;
+    }
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText {
+        padding: 20px 0px 25px 20px;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .CourseText,
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleText {
+        font-size: 11px;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .findText,
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .premiumText {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText .NewCourseButton,
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorInnerText .FemaleTutorButton {
+        padding: 8px 15px;
+        font-size: 11px;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseImg,
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg {
+        width: 100%;
+        display: block;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseImg .Courseimg,
+    .TutorCoursedWrap .FemaleTutorITem .FemaleTutorImg .FemaleImg {
+        width: 100%;
+    }
+    .TutorCoursedWrap .NewCourseItem {
+        margin-top: 25px;
+        display: inherit;
+    }
+    .TutorCoursedWrap .NewCourseItem .NewCourseInnerText {
+        padding: 20px 20px 30px 20px;
+    }
+}

@@ -1,0 +1,1034 @@
+// banner 1 style
+
+/*--SocialProfileWrap section--*/
+
+.Buttonlight {
+    background-color: #0c76b2;
+    color: white!important;
+    border: none;
+}
+
+.Buttonlight:hover {
+    background-color: #f9a23f!important;
+}
+
+.AddEditGlobBtn {
+    color: #0c76b2!important;
+    cursor: pointer;
+}
+
+-check:focus+.btn,
+.btn:focus {
+    outline: 0!important;
+}
+
+.EditSolidButton {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.AddEditGlobBtn:hover {
+    color: #f9a23f!important;
+}
+
+.SocialProfileWrap {
+    margin-top: 30px;
+    .ProfileWrapInner {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        overflow: hidden;
+        border-radius: 5px;
+        position: relative;
+        border: 1px solid #f2f2f2;
+        z-index: 1;
+        .PrimiumImg {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .shadowimg1 {
+            position: absolute;
+            right: 0;
+            top: -10px;
+            margin-right: 20px;
+            filter: invert(39);
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .circle2 {
+            position: absolute;
+            left: -20px;
+            top: 95px;
+            filter: invert(39);
+            opacity: 0.1;
+        }
+        .ProfileImg {
+            display: block;
+            z-index: 1;
+            position: relative;
+        }
+        .ActiveLight {
+            position: absolute;
+            left: 150px;
+            z-index: 2;
+            bottom: 161px;
+            display: block;
+        }
+        .ProfileImg img {
+            margin-right: 20px;
+        }
+        .ProfileTextwrap {
+            align-self: center;
+            margin-right: auto;
+            .UserNametext {
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .Graduation {
+                font-size: 18px;
+                font-weight: 400;
+                color: #707070;
+                line-height: 21px;
+            }
+            .Location {
+                font-weight: 400;
+                color: #707070;
+                line-height: 21px;
+                z-index: 1;
+                position: absolute;
+            }
+            .ppmapIcon {
+                color: #2c2c2c;
+                margin-left: 2px;
+                z-index: 1;
+            }
+        }
+        .DownloadAddInner {
+            align-self: center;
+            padding-top: 50px;
+            .downloadWrap {
+                .ButtonSolidwrap {
+                    border-radius: 5px;
+                    text-align: center;
+                    padding: 6px 12px;
+                    display: inline-block;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    -webkit-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                    box-shadow: -20px -28px 30px 9px rgb(255, 255, 255);
+                }
+            }
+            .AddEditLogoWrap {
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                margin-top: 20px;
+                .AddModalButton {
+                    .AddLogoWrap {
+                        .AddEditGlobBtn {
+                            align-items: baseline;
+                            text-decoration: none;
+                            -webkit-transition: all 0.2s;
+                            -o-transition: all 0.2s;
+                            transition: all 0.2s;
+                            font-size: 16px;
+                            font-weight: 400;
+                            display: inline-block;
+                            .pluslight {
+                                margin-right: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ServiceDigitWrap {
+        .ServiceInnerWrap {
+            display: flex;
+            text-align: center;
+            text-align: -webkit-center;
+            justify-content: space-around;
+            max-width: 855px;
+            height: 113px;
+            background-color: white;
+            border: 1px solid #f2f2f2;
+            padding-top: 10px;
+            .Numberwrap {
+                color: #0c76b2;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 42px;
+                font-weight: 600;
+            }
+            .ServiceText {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color: #707070;
+            }
+        }
+        .VersityWorksInner {
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            border: 1px solid #f2f2f2;
+            padding: 15px 20px;
+            .ContactWrap {
+                border-right: 1px solid #f1f1f1;
+                padding-right: 20px;
+                .DU-logo img {
+                    margin-right: 5px;
+                    border: 1px solid #d5d5d5;
+                    border-radius: 50%;
+                    padding: 3px;
+                    width: 25px;
+                    height: 25px;
+                }
+                .BimanLogo img {
+                    width: 19px;
+                    height: 25px;
+                    margin-right: 5px;
+                }
+                .ContactPhoneIcon {
+                    color: white;
+                    font-size: 16px!important;
+                    border: 1px solid #3a90c1;
+                    align-items: center;
+                    background: #3a90c1;
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    padding: 2px;
+                    text-align: center;
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+            .WorksItem {
+                color: #a0a0a0;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: left!important;
+                line-height: 21px;
+            }
+            .ContactText {
+                color: #595959;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+            }
+            .mapIcon {
+                color: white;
+                font-size: 16px;
+                margin-right: 3px;
+                font-weight: 400;
+                border: 1px solid #3a90c1;
+                border-radius: 50%;
+                align-items: center;
+                background: #3a90c1;
+                margin-right: 5px;
+                border-radius: 50%;
+                padding: 1px;
+                text-align: center;
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+    .TutorFormWrap {
+        background-color: white;
+        padding: 15px;
+        .ContactTutors {
+            font-family: 'Montserrat', sans-serif!important;
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 10px;
+            color: #595959;
+            text-align: left;
+            padding-left: 30px;
+        }
+        .FormInner {
+            padding: 10px;
+            .Inputform {
+                .input_field {
+                    font-family: 'Montserrat', sans-serif!important;
+                    font-size: 12px;
+                    font-weight: 400;
+                    background: #f6f6f6;
+                    margin: 10px;
+                    width: 287px;
+                    height: 44px;
+                    border-radius: 3px;
+                    padding-left: 20px;
+                    border: 1px solid #e7e7e7;
+                    outline: none;
+                }
+                .input_field:focus {
+                    border-color: #86b7fe;
+                    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+                }
+                .text_Details {
+                    background-color: inherit;
+                    line-height: 10px;
+                    width: 287px;
+                    height: 110px;
+                    text-align: justify;
+                    padding-top: 20px;
+                }
+                .BtnGlobWrap {
+                    width: 290px;
+                    height: 37px;
+                    border-radius: 5px;
+                    font-family: 'Montserrat', sans-serif!important;
+                    font-size: 16px;
+                    border: none;
+                    margin-left: 10px;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+}
+
+.ModalFig {
+    .ModalDialogFig {
+        .ModalContentFig {
+            .ModalHeaderFig {
+                .btn-close:focus {}
+            }
+            .ModalBodyFig {
+                .form-group {
+                    label {
+                        margin-top: 15px;
+                    }
+                    .form-control:focus {}
+                }
+                .ModalFooterFig {
+                    .btn:focus {
+                        outline: 0!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.EditGlobButton {
+    margin-right: 2px;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .TutorFormWrap {
+        margin-bottom: 50px;
+        display: table-caption;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 610px) {
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner {
+        padding-top: 10px!important;
+    }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .downloadWrap .ButtonSolidwrap {
+        box-shadow: none!important;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap {
+        border-right: none!important;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ActiveLight {
+        left: 138px!important;
+        bottom: 148px!important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .SocialProfileWrap .ProfileWrapInner .shadowimg1 {
+        display: none;
+    }
+    .circle2 {
+        display: none;
+    }
+    .SocialProfileWrap .ProfileWrapInner {
+        display: block;
+        padding: 20px;
+    }
+    .AcademyContactWrap img {
+        display: block;
+        width: 40px;
+        height: 55px;
+    }
+    .VersityContactWrap img {
+        display: block;
+        width: 45px;
+        height: 50px;
+    }
+    .AboutWrap .SocialContactWrap {
+        display: inherit!important;
+    }
+    .SocialContactWrap3 img {
+        display: block;
+        width: 40px;
+        height: 55px;
+    }
+    .SocialContactWrap2 img {
+        width: 45px;
+        height: 50px;
+        display: block;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ProfileImg img {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ActiveLight {
+        left: 96px;
+        bottom: inherit;
+        max-width: 20px;
+    }
+    .FormInner {
+        padding-right: 20px;
+        padding: inherit;
+    }
+    .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .input_field,
+    .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .BtnGlobWrap {
+        width: 100%;
+        height: inherit;
+        padding: 8px;
+        font-size: 10px;
+    }
+    .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .text_Details {
+        width: 100%;
+        height: inherit;
+        padding-bottom: 25px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .SocialProfileWrap {
+        margin-top: 15px;
+    }
+    .form-check .form-check-input {
+        float: inherit;
+        font-size: 12px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .downloadWrap .ButtonSolidwrap {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 12px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap {
+        justify-content: start;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner .AddEditLogoWrap .AddModalButton .AddLogoWrap .AddEditGlobBtn {
+        font-size: 14px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .DownloadAddInner {
+        padding-top: 35px;
+    }
+    .EditSolidButton {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+    .Location .ppmapIcon {
+        color: black;
+        font-size: 14px !important;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Graduation {
+        font-size: 12px;
+        color: black;
+        line-height: 10px;
+    }
+    .Graduation img {
+        width: 12px;
+    }
+    .ViewText {
+        color: black;
+        font-size: 16px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .UserNametext {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .ProfileTextwrap {
+        margin-top: 20px;
+    }
+    .ProfileTextwrap p {
+        font-size: 12px;
+        color: black;
+        line-height: 10px;
+    }
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Location {
+        color: black;
+        font-size: 12px;
+        line-height: 0;
+    }
+    .EditLogoWrap {
+        position: inherit;
+        margin-left: -5px;
+        display: contents;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap {
+        max-width: inherit;
+        height: inherit;
+        padding: 20px;
+    }
+    .PlaceText {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .Numberwrap {
+        font-size: 20px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .ServiceInnerWrap .ServiceText {
+        font-size: 10px;
+        color: black;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .WorksItem {
+        color: black;
+        font-size: 12px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: left;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .DU-logo img {
+        padding: 2px;
+        width: 22px;
+        height: 23px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .BimanLogo img {
+        width: 16px;
+        height: 22px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .mapIcon {
+        font-size: 13px!important;
+        width: 18px;
+        height: 18px;
+        align-items: center;
+        text-align: center;
+        margin-left: -2px;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap .ContactPhoneIcon {
+        font-size: 13px!important;
+        width: 18px;
+        height: 18px;
+        align-items: center;
+        text-align: center;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactText {
+        font-size: 10px;
+        color: black;
+    }
+    .SocialProfileWrap .ServiceDigitWrap .VersityWorksInner .ContactWrap {
+        border-right: none;
+    }
+    .SocialProfileWrap .TutorFormWrap {
+        margin-top: 15px;
+    }
+    .SocialProfileWrap .TutorFormWrap .FormInner {
+        padding: inherit;
+        margin-left: -20px;
+    }
+    .SocialProfileWrap .TutorFormWrap .ContactTutors {
+        color: black;
+        font-size: 16px;
+    }
+    .SocialProfileWrap .TutorFormWrap .FormInner .Inputform .BtnGlobWrap {
+        height: inherit;
+        font-size: 14px;
+        padding: 5px;
+    }
+    .ModalFooterFig .btn {
+        font-size: 10px;
+    }
+    .ModalHeaderFig {
+        padding: 10px;
+        margin-bottom: -10px;
+    }
+    .ModalHeaderFig .btn-close {
+        font-size: 12px;
+    }
+    .ModalHeaderFig .modal-title {
+        font-size: 12px;
+    }
+    .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig {
+        padding: 10px;
+    }
+    .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .form-group label {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .ModalBodyFig .form-group .form-control {
+        font-size: 10px;
+    }
+    .ModalFig .ModalDialogFig .ModalContentFig .ModalBodyFig .form-group {
+        margin-top: 0;
+    }
+    .ModalContentFig .modal-footer {
+        border-top: none!important;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Graduation,
+    .SocialProfileWrap .ProfileWrapInner .ProfileTextwrap .Location {
+        line-height: inherit;
+    }
+}
+
+// banner 1 style
+// banner 2 style
+
+/*--VerifiedWrap/banner1 Section--*/
+
+.verifiedFormWrap {
+    .VerifiedWrap {
+        background-color: #eef0f4;
+        position: relative;
+        .VerifiedInnerText {
+            margin-top: 130px;
+            .BetterText {
+                font-family: 'Gordita', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: #f48f1d;
+            }
+            .ConnctText {
+                font-family: 'Gordita', sans-serif;
+                font-size: 43px;
+                font-weight: 700;
+                color: #0c76b2;
+                margin-bottom: 30px;
+                line-height: 70px;
+                .WithVerified {
+                    color: #f48f1d;
+                    position: relative;
+                }
+                .WithVerified::after {
+                    content: "";
+                    position: absolute;
+                    height: 20px;
+                    width: 102%;
+                    left: 5px;
+                    transform: rotate(-2deg);
+                    top: 60px;
+                    border-radius: 50%;
+                    border: 4px solid #f9a23f;
+                    border-color: #f9a23f transparent transparent transparent;
+                }
+            }
+            .FindButton {
+                font-family: 'Gordita', sans-serif;
+                padding: 8px 25px;
+                font-size: 17px;
+                font-weight: 400;
+                text-decoration: none;
+                border-radius: 5px;
+                -webkit-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+                border: none;
+            }
+        }
+        .VeriFiedRightImg {
+            display: flex;
+            margin-top: 20px;
+            .Girlimg {
+                z-index: 10;
+                width: 500px;
+                height: 500px;
+            }
+            .FingurePrintImg {
+                display: block;
+                position: absolute;
+                right: 150px;
+                align-items: center;
+                width: 150px;
+                height: 150px;
+                bottom: 174px;
+                z-index: 1;
+            }
+            .VerifyImg {
+                position: absolute;
+                bottom: 0;
+                right: 0px;
+                width: 550px;
+                overflow: hidden;
+                display: block;
+            }
+        }
+    }
+    .FormInner {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+        .FormSelection {
+            Width: 200px;
+            height: 50px;
+            padding-left: 1.75rem;
+            background-color: #eef0f4;
+            font-size: 15px;
+            font-weight: 400;
+            color: black;
+            border-radius: 0;
+            transition: none;
+            border: 0;
+            background-position: right 1.45rem center;
+        }
+        .TuitorSolidButtton {
+            Width: 200px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            border: 0;
+            border-radius: 5px;
+        }
+        .form-select:focus-visible,
+        .form-select:focus {
+            box-shadow: inherit!important;
+            border: 0!important;
+            outline: none!important;
+            border-color: inherit!important;
+        }
+    }
+}
+
+.TutorLightButton {
+    color: white;
+    background-color: #0c76b2;
+    border: none;
+}
+
+.TutorLightButton:hover {
+    background-color: #f48f1d;
+}
+
+@media screen and (min-width: 1367px) {
+    .verifiedFormWrap .VerifiedWrap {
+        position: inherit;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeryfiedGirlInner {
+        position: relative;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+        position: sticky;
+        z-index: 10;
+        width: inherit;
+        height: inherit;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+        display: block;
+        position: absolute;
+        right: -53px;
+        align-items: center;
+        bottom: 190px;
+        width: inherit;
+        height: inherit;
+        z-index: 1;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+        position: absolute;
+        bottom: 0;
+        right: -242px;
+        overflow: hidden;
+        display: block;
+        width: 634px!important;
+        height: 300px!important;
+        max-width: 150%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+        width: inherit;
+        height: inherit;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+        right: 30px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+        height: 260px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+        right: 0;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+        width: 280px;
+        height: 330px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 766px) {
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+        right: 80px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .VerifyImg {
+        width: 446px;
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .verifiedFormWrap .FormInner {
+        display: inherit;
+    }
+    .verifiedFormWrap .FormInner .FormSelection {
+        Width: 100%;
+        margin-top: 20px;
+        height: inherit;
+    }
+    .verifiedFormWrap .FormInner .TuitorSolidButtton {
+        Width: 100%;
+        height: inherit;
+        padding: 6px 15px;
+        background-color: #0c76b2;
+        margin-top: 20px;
+        background-color: #06a0f7;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .verifiedFormWrap {
+        margin-bottom: 40px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText {
+        margin-top: 30px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .BetterText {
+        font-size: 12px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText {
+        font-size: 15px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .ConnctText .WithVerified::after {
+        top: 22px;
+        border: 2px solid #f9a23f;
+        border-top-color: rgb(249, 162, 63);
+        border-right-color: rgb(249, 162, 63);
+        border-bottom-color: rgb(249, 162, 63);
+        border-left-color: rgb(249, 162, 63);
+        border-color: #f9a23f transparent transparent transparent;
+        width: 100%;
+    }
+    .verifiedFormWrap .VerifiedWrap .VerifiedInnerText .FindButton {
+        padding: 6px 15px;
+        font-size: 11px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg {
+        margin-top: 30px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .Girlimg {
+        width: inherit;
+        height: 400px;
+    }
+    .verifiedFormWrap .VerifiedWrap .VeriFiedRightImg .FingurePrintImg {
+        right: 0;
+        overflow: hidden;
+        bottom: 170px;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .verifiedFormWrap .FormInner {
+        padding: 15px 0;
+    }
+    .verifiedFormWrap .FormInner .FormSelection {
+        font-size: 11px;
+    }
+    .verifiedFormWrap .FormInner .TuitorSolidButtton {
+        padding: 6px 15px;
+        font-size: 11px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+
+// banner 2 style
+// banner 3 style
+
+/*--VerifiedWrap Section--*/
+
+.LearnSearchTutorWrap {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    .carousel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        .carousel-item {
+            width: 100%;
+            height: 100%;
+            .VerifiedWrap {
+                z-index: 10;
+                position: relative;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    #carouselExampleSlidesOnly1 {
+        position: relative;
+        z-index: 1;
+        .VerifiedWrap1 {
+            .overlay img {
+                background-repeat: no-repeat;
+                margin: auto;
+                width: 100%;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+            }
+            .VerifiedInnerText {
+                position: sticky;
+                text-align: center;
+                margin-top: 180px;
+                .BetterText {
+                    font-family: 'Gordita', sans-serif;
+                    font-size: 32px;
+                    font-weight: 500;
+                    color: #f48f1d;
+                }
+                .LearnText {
+                    font-family: 'Gordita', sans-serif;
+                    font-size: 70px;
+                    font-weight: 700;
+                    color: white;
+                    margin-bottom: 30px;
+                    line-height: 109px;
+                }
+            }
+            .FormInner {
+                display: flex;
+                justify-content: space-between;
+                padding: 50px 0;
+                margin-bottom: 120px;
+                position: sticky;
+                .FormSelection {
+                    Width: 200px;
+                    height: 50px;
+                    padding-left: 1.75rem;
+                    background-color: white;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: black;
+                    border-radius: 0;
+                    transition: none;
+                    border: 0;
+                    background-position: right 1.45rem center;
+                }
+                .FormSelection:focus-visible,
+                .FormSelection:focus {
+                    box-shadow: inherit!important;
+                    border: 0!important;
+                    outline: none!important;
+                    border-color: inherit!important;
+                }
+            }
+            .TutorButton {
+                .TuitorSolidButtton {
+                    Width: 200px;
+                    height: 50px;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    -webkit-transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+                .btn:focus {
+                    box-shadow: inherit!important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText {
+        margin-top: 230px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner {
+        display: inherit;
+        width: 100%;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection {
+        Width: inherit;
+        height: inherit;
+        margin-top: 20px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton {
+        margin-top: 20px;
+        background-color: #06a0f7;
+        border: 1px solid white;
+        Width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText {
+        margin-top: 45px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .BetterText {
+        font-size: 12px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .VerifiedInnerText .LearnText {
+        font-size: 16px;
+        line-height: 40px;
+        margin-bottom: 12px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner {
+        padding: 2px 15px;
+        margin-bottom: 45px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .FormInner .FormSelection {
+        font-size: 12px;
+    }
+    .LearnSearchTutorWrap #carouselExampleSlidesOnly1 .VerifiedWrap1 .TutorButton .TuitorSolidButtton {
+        font-size: 13px;
+        height: inherit;
+        padding: 10px;
+    }
+}
+
+// banner 3 style
